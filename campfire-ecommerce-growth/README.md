@@ -1,227 +1,285 @@
-# 🛒 Campfire — Finding the Growth Levers in an Ecommerce Funnel
+# 🛒 Campfire — Diagnosing an Ecommerce Funnel in an Interview Case That Led to an Offer
 
-**Conversion Analysis · Funnel Diagnosis · Experimentation · Growth Strategy**
+**Growth Product · Funnel Analysis · Conversion · Experimentation · Ecommerce**
 
-> *Completed as part of an interview process that resulted in an offer. The original dataset and company-specific materials are not published; this case study focuses on my approach, reasoning, and recommendations.*
+> **Given an unfamiliar ecommerce dataset, I identified the strongest growth signals, diagnosed where the funnel was breaking, and turned the findings into a prioritized experimentation plan. The work resulted in an offer.**
 
-## The Context
+## At a Glance
 
-I was given an unfamiliar ecommerce dataset and asked to answer five questions:
+**Context:** Interview case study  
+**Challenge:** Analyze an unfamiliar ecommerce dataset and recommend where the company should focus its growth efforts.  
+**Questions:** Which acquisition channels performed best? Where was the funnel breaking? Which experiences converted most effectively? What should the company test next?  
+**Approach:** Followed customers from acquisition through landing experience, engagement, checkout, and purchase rather than optimizing isolated metrics.  
+**Outcome:** Produced a focused growth and experimentation strategy from limited data. The interview process resulted in an offer.
+
+---
+
+## The Problem
+
+I was given an unfamiliar ecommerce dataset and asked to answer five broad questions:
 
 - Which traffic sources perform best?
 - Where does the checkout funnel appear to be breaking?
 - Are there seasonal trends worth acting on?
 - Which pages are most effective?
-- What else could the company learn from the data to improve performance?
+- What else could the company learn from the data?
 
-The challenge was not simply to produce charts.
+The challenge wasn't producing charts.
 
-It was to turn a limited dataset into a useful growth recommendation.
+It was deciding:
 
-## The Problem
+> **Which signals actually matter, what can we confidently conclude from them, and what should the company do next?**
 
-A funnel can look healthy at the top and still fail badly closer to purchase.
+I approached the customer journey as:
 
-So I approached the analysis as a sequence:
+**Traffic source → Landing experience → Engagement → Checkout → Purchase**
 
-**Traffic source → landing experience → engagement → checkout → purchase**
+That allowed me to evaluate acquisition and product experience as one system.
 
-The goal was to understand not just where users were coming from, but which combinations of source and experience were actually producing the best downstream behavior.
+---
 
-## How I Approached It
+## Start With Value, Not Traffic
 
-### Start with conversion, not traffic volume
+The largest acquisition channel isn't necessarily the best one.
 
-The largest traffic source is not necessarily the best one.
+So rather than ranking channels by traffic volume, I compared traffic with downstream conversion behavior.
 
-I compared visits by source with purchase conversion rather than assuming volume was a proxy for value.
+Two channels immediately stood out:
 
-That immediately surfaced an important distinction:
+### Affiliate and Organic Search were the highest-converting traffic sources.
 
-**Affiliate and Organic Search were the highest-converting sources, even though other channels generated more total traffic.**
+Organic Search was particularly interesting because it combined **strong conversion with lower cart abandonment**.
 
-I also noted that a truly complete channel decision would require cost and revenue data, which were not available in the dataset. Samuelson_Campfire.pdf
+That suggested something more useful than:
 
-### Follow the customer further down the funnel
+> **“Organic converts well.”**
 
-Next, I looked at cart abandonment by traffic source and country.
+The product question became:
 
-The abandonment problem was not isolated to one small segment.
+> **What experience are these customers having, and can we create more of it?**
 
-Paid Social and Paid Display both had abandonment rates above 90%, and abandonment was high enough across the broader dataset that I recommended qualitative research rather than assuming the analytics alone explained the problem. Samuelson_Campfire.pdf
+---
 
-That led to an important next step:
+## Follow the Signal Into the Product
 
-**Use the quantitative data to locate the problem, then use user research to understand why it exists.**
+I then looked at the relationship between acquisition source and landing experience.
 
-## What I Found
+Instead of treating every URL independently, I transformed the page data so I could analyze both:
 
-### Organic Search looked especially promising
-
-Affiliate converted very well, but Organic Search combined strong conversion with lower cart abandonment.
-
-That made Organic particularly interesting as a growth opportunity rather than simply optimizing for whichever channel had the highest raw conversion rate. Samuelson_Campfire.pdf
-
-### The checkout experience deserved investigation
-
-High abandonment showed up across the funnel rather than only in one market or channel.
-
-My recommendation was to conduct remote and in-person user testing—or deeper behavioral analysis—to understand the usability issues behind that drop-off. Samuelson_Campfire.pdf
-
-### Page type mattered
-
-I went beyond comparing individual URLs.
-
-I split the original page field into:
-
-- `page_type`
-- `page_number`
-
-That let me evaluate both individual page performance and the effectiveness of entire page templates.
-
-It created two useful levels of decision-making:
-
-**Which specific pages work?**
+**individual pages**
 
 and
 
-**Which kinds of pages work?**
+**page types**
 
-Product Detail Pages emerged as particularly strong: they had the highest conversion rate, the lowest bounce rate, and average cart abandonment, especially when reached through Organic Search. Samuelson_Campfire.pdf
+That surfaced another important pattern:
 
-That was more actionable than simply saying one individual page happened to perform well.
+### Product Detail Pages were the strongest landing-page experience.
 
-## From Analysis to Experiments
+They had:
 
-I turned the findings into a small testing roadmap.
+- the highest conversion rate
+- the lowest bounce rate
+- average cart abandonment
 
-### 1. Grow Organic Search
+And they performed particularly well when customers arrived through Organic Search.
 
-If Organic traffic is both converting well and abandoning less frequently, increasing qualified organic traffic could be more valuable than simply increasing traffic overall.
+Now the findings started connecting.
 
-My recommendation was to improve SEO around the strongest-performing Product Detail Pages.
+**Organic Search performed well.**
 
-### 2. Route more Affiliate traffic to Product Detail Pages
+**Product Detail Pages performed well.**
 
-Affiliate traffic converted well, while Product Detail Pages performed well as landing experiences.
+**Organic → Product Detail Page traffic performed especially well.**
 
-That suggested a straightforward hypothesis:
+That was much more actionable than simply identifying the site's highest-converting page.
 
-**Would Affiliate traffic perform even better if more of it landed directly on Product Detail Pages?**
+It suggested a repeatable customer experience worth testing.
 
-I recommended testing that rather than treating current routing as fixed. Samuelson_Campfire.pdf
+---
 
-### 3. Test retargeting against stronger landing experiences
+## Find Where the Journey Breaks
 
-I recommended a small retargeting test focused on Product Detail Pages rather than broadly sending paid users back into the site. Samuelson_Campfire.pdf
+The strongest negative signal appeared further down the funnel.
 
-### 4. Question paid traffic to the homepage
+### Paid Social and Paid Display both had cart-abandonment rates above 90%.
 
-Paid Display and Paid Social traffic sent to the homepage showed very high cart abandonment.
+The problem wasn't isolated to a single small geography or segment.
 
-Without spend data, I could not determine the exact economic impact.
+Abandonment was high enough across the broader dataset that I didn't think another round of aggregate reporting would explain it.
 
-But the pattern was strong enough to question the experience:
+The data could tell me:
 
-**Why pay to acquire a specific audience, then send them to a generic homepage?**
+> **Customers are getting stuck here.**
 
-I recommended testing more relevant landing experiences based on what those users were expected to purchase. Samuelson_Campfire.pdf
+It could not tell me:
 
-## What the Data Couldn’t Tell Me
+> **Why.**
 
-This was an important part of the analysis.
+So my recommendation wasn't:
 
-### Channel profitability
+**Build another dashboard.**
 
-Conversion rate alone cannot tell you which channel deserves the most budget.
+It was:
 
-To make that decision confidently, I would want:
+### Talk to customers.
 
-- acquisition cost;
-- revenue;
-- average order value;
-- contribution margin;
-- and ideally customer lifetime value.
+I recommended user testing and deeper behavioral research around the checkout experience to understand what was actually preventing customers from completing purchases.
 
-The original analysis explicitly called out the absence of cost and revenue data rather than pretending conversion rate answered the full business question. Samuelson_Campfire.pdf
+That distinction became an important part of the case.
 
-### Why users abandoned
+> **Quantitative data should tell you where to investigate. It doesn't automatically tell you why the behavior exists.**
 
-The funnel could show me **where** users were dropping.
+---
 
-It could not tell me **why**.
+## Turn Findings Into Experiments
 
-That is why the next recommendation was user testing and behavioral research rather than another dashboard.
+I translated the analysis into a small testing roadmap rather than a long list of recommendations.
 
-### Seasonality
+### 1. Grow qualified Organic Search
 
-The available dataset was not sufficient to make a credible seasonal claim.
+Organic Search combined strong conversion with comparatively lower abandonment.
 
-So I didn't make one. Samuelson_Campfire.pdf
+I recommended investing in SEO around the Product Detail Pages already demonstrating strong customer behavior.
 
-That may be the least exciting finding in the project, but I think it is an important analytical principle:
+### 2. Test Affiliate → Product Detail Page routing
 
-**“I don't know yet” is better than manufacturing a pattern from insufficient data.**
+Affiliate traffic converted well.
 
-## How I Prioritized
+Product Detail Pages converted well.
 
-I would not treat every finding as equally valuable.
+That created a straightforward hypothesis:
+
+> **Would Affiliate customers convert even better if more of them landed directly on relevant Product Detail Pages?**
+
+Rather than assuming the answer, I recommended testing it.
+
+### 3. Test more relevant paid landing experiences
+
+Paid Social and Display customers were showing extremely high abandonment.
+
+That raised a basic product question:
+
+> **Why pay to acquire a specific audience and then send them into a generic experience?**
+
+I recommended testing landing experiences aligned more closely with the intent behind the campaign.
+
+### 4. Investigate checkout abandonment
+
+Because the dataset could identify the location of the problem but not its cause, I recommended direct user research and deeper behavioral analysis before making significant checkout changes.
+
+---
+
+## Know What the Data Can't Tell You
+
+One of the most important parts of the analysis was refusing to make claims the dataset couldn't support.
+
+### I couldn't determine channel profitability.
+
+Conversion rate isn't enough.
+
+To confidently decide where to move acquisition budget, I would also want:
+
+**Acquisition cost → Revenue → Average order value → Margin → Customer lifetime value**
+
+Those weren't available.
+
+So I didn't pretend the highest-converting channel was automatically the most profitable.
+
+### I couldn't explain why customers abandoned.
+
+The funnel identified **where** customers dropped.
+
+Understanding **why** required another research method.
+
+### I couldn't establish meaningful seasonality.
+
+The dataset wasn't sufficient to support a credible seasonal conclusion.
+
+So my answer was effectively:
+
+> **We don't know yet.**
+
+That's a legitimate analytical result.
+
+Finding a pattern isn't the goal.
+
+Finding a pattern you can **defend** is.
+
+---
+
+## Prioritize Learning
+
+I didn't think every possible recommendation deserved equal attention.
 
 My prioritization logic was roughly:
 
-**Strong signal + plausible business value + inexpensive test = test sooner**
+> **Strong signal + meaningful potential value + inexpensive test = test sooner**
 
-That pushed these toward the front:
+That produced a focused roadmap:
 
-1. SEO improvements on high-performing Product Detail Pages
-2. Affiliate → Product Detail Page routing test
-3. Small retargeting experiment
-4. User research around checkout abandonment
-5. Review of paid traffic landing-page strategy
+**1. SEO around strong Product Detail Pages**
 
-The purpose of the analysis was not to deliver a giant list of ideas.
+**2. Affiliate → Product Detail Page routing experiment**
 
-It was to identify the smallest set of actions most likely to teach us something useful.
+**3. Paid landing-page experiment**
 
-## What I’d Do Today
+**4. Checkout user research**
 
-I would approach the same exercise with the same basic logic, but with better instrumentation.
+The objective wasn't to produce the largest possible backlog.
 
-I would want to connect:
+It was to identify the smallest set of actions most likely to improve the business **or teach us something important about the customer.**
 
-**Acquisition → landing page → product interaction → checkout behavior → purchase → repeat behavior**
-
-I would also segment by:
-
-- new vs. returning customer;
-- device;
-- campaign intent;
-- product category;
-- customer cohort;
-- and possibly geography where volume supports it.
-
-For the checkout issue, I would combine funnel analysis with session-level behavior and direct customer research much earlier.
-
-And I would formalize each recommendation into an experiment brief:
-
-**Observation → hypothesis → target segment → change → primary metric → guardrail metric → decision rule**
-
-The tooling has changed.
-
-The underlying growth question hasn't:
-
-**Where is the customer getting stuck, and what is the cheapest credible way to learn whether changing that experience helps?**
+---
 
 ## Outcome
 
-This analysis was completed as part of an interview process and resulted in an offer.
+This work was completed as part of an interview process.
 
-I include it because it demonstrates a part of product work I still use frequently:
+### It resulted in an offer.
 
-**enter an unfamiliar problem, identify the signal quickly, separate evidence from assumption, and turn the result into an actionable testing plan.**
+I include the case because it demonstrates a product skill that is difficult to show through large multi-year projects:
 
-## Confidentiality Note
+> **How quickly can I enter an unfamiliar problem and figure out what matters?**
 
-The original interview dataset and company-specific materials are not included here.
+I didn't know the company's funnel beforehand.
 
-This case study reconstructs my analytical approach and recommendations from my own work while avoiding publication of source data or materials supplied during the interview process.
+I didn't have perfect instrumentation.
+
+I didn't have every metric I would have wanted.
+
+I had a limited dataset and a business problem.
+
+My job was to:
+
+**Find the signal → Separate evidence from assumption → Identify the customer problem → Form a hypothesis → Recommend the next experiment**
+
+That's still how I approach ambiguous product problems today.
+
+---
+
+## What I Learned
+
+This exercise reinforced a principle that has followed me through my later product work:
+
+> **The purpose of analysis isn't to explain the past. It's to improve the next decision.**
+
+A useful analysis should change what the team does next.
+
+Sometimes that's shipping something.
+
+Sometimes it's running an experiment.
+
+Sometimes it's talking to customers.
+
+And sometimes it's recognizing that the available evidence isn't strong enough to make the decision yet.
+
+Knowing the difference is part of the job.
+
+---
+
+## Confidentiality
+
+This analysis was completed as part of an interview process.
+
+The original dataset and company-provided materials are not published. This case reconstructs my analytical approach, findings, and recommendations from my own work without disclosing the underlying source materials.
