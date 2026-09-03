@@ -1,443 +1,299 @@
-# 🏈 Seattle Majestics — Building a Growth Engine With Almost No Resources
+# 🏈 Seattle Majestics — Building a Growth System for Women's Tackle Football
 
-**Growth Strategy · SEO · Conversion · Email · Sponsorship · Ecommerce · Community Growth**
+**Growth Strategy · Audience Development · Digital Product · Lifecycle · Sports**
 
-## The Context
+> **Connecting discovery, digital experience, email, ticketing, and sponsorship into a repeatable growth system that contributed to the organization's first positive-cash-flow season.**
 
-The Seattle Majestics are a women’s tackle football organization competing in a part of the sports world where attention, sponsorship, and operating resources are limited.
+## At a Glance
 
-The team had a long history.
-
-What it did not have was a modern growth system.
-
-There was no giant media budget, sophisticated acquisition engine, large marketing staff, or established audience funnel to optimize.
-
-So the challenge was not:
-
-**“How do we improve an existing growth machine?”**
-
-It was:
-
-**“How do we build one with the resources we already have?”**
-
-I approached the team like a small consumer business.
-
-We needed to attract attention, turn that attention into an owned audience, convert some of that audience into ticket buyers or supporters, create better sponsor value, and measure whether any of it was working.
+**Organization:** Seattle Majestics Women's Tackle Football  
+**Role:** Growth & Digital Strategy  
+**Problem:** A strong sports product and community existed, but awareness, audience development, ticketing, and sponsorship operated with limited resources and without a connected growth system.  
+**Approach:** Treated the fan journey as a product: connect discovery, website experience, email capture, ticketing, community engagement, and sponsorship rather than optimizing each channel independently.  
+**Outcome:** The work contributed to the organization's **first positive-cash-flow year**, alongside substantial growth in attendance and season-ticket ownership.
 
 ---
 
 ## The Problem
 
-A sports team can generate a lot of activity without generating much durable value.
+The Seattle Majestics had the core ingredient every sports organization needs:
 
-A social post disappears.
+**a compelling product on the field.**
 
-A game ends.
+The challenge was getting more people to discover it.
 
-A press mention fades.
+Women's tackle football didn't have the built-in media distribution, search demand, sponsorship infrastructure, or marketing budgets available to larger professional sports properties.
 
-Someone visits the website once and never returns.
+That meant growth couldn't depend on simply buying more attention.
 
-Without a system connecting those moments, every season starts over.
+We needed to build a system that turned each new interaction into the possibility of a longer relationship.
 
-I wanted to build a loop:
+The core question became:
 
-**Discovery → website → email capture → relationship → ticket / player / sponsor / supporter → repeat engagement**
+> **How do we turn someone who discovers the Majestics into someone who comes to a game, follows the team, buys a season ticket, plays, sponsors, or tells someone else about it?**
 
-The website would become the center of that system rather than simply a place to post the schedule.
+---
+
+## Stop Treating Marketing Channels Separately
+
+The initial temptation was to think in channels:
+
+**SEO**
+
+**Social**
+
+**Email**
+
+**Website**
+
+**Advertising**
+
+**Ticketing**
+
+**Sponsorship**
+
+But fans don't experience channels.
+
+They experience a relationship with the team.
+
+Someone might discover the Majestics through search or social media, visit the website, read about a player, sign up for email, attend a game, and eventually become a season-ticket holder.
+
+So I reframed the problem as a connected journey:
+
+### Discovery → Website → Relationship → Attendance → Loyalty
+
+That created a much more useful growth model.
+
+Instead of asking:
+
+> **“How do we get more website traffic?”**
+
+we could ask:
+
+> **“How do we make every new visitor more likely to become part of the Majestics community?”**
 
 ---
 
 ## Build an Owned Audience
 
-Social media mattered, but I did not want the team’s entire relationship with fans to depend on social platforms.
+One of the biggest constraints for a small sports organization is dependence on platforms it doesn't control.
 
-The marketing plan included a deliberate email-capture strategy and specific subscriber goals.
+Social reach can change.
 
-The initial target was:
+Paid media costs money.
+
+Press coverage is unpredictable.
+
+An email list is different.
+
+It creates a direct relationship with someone who has already expressed interest.
+
+So audience capture became an important part of the strategy.
+
+We set concrete early targets:
 
 **100 email subscribers before the season**
 
 and
 
-**300 by the end of the season.** 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
+**300 by the end of the season.**
 
-The idea was simple:
+The number itself wasn't the larger idea.
 
-**A follower is useful. An audience you can reach directly is more valuable.**
+The important shift was treating anonymous traffic as an opportunity to build an **owned audience**.
 
-Once someone joined the list, we could communicate with them about:
+Once someone entered that audience, the team could maintain the relationship through schedules, player stories, game information, ticket offers, and other content.
 
-- games;
-- tickets;
-- players;
-- events;
-- fundraising;
-- sponsors;
-- and future seasons.
-
-That turns individual moments of attention into an ongoing relationship.
+That turned individual marketing moments into a lifecycle.
 
 ---
 
-## Turn the Website Into the Growth Hub
+## Make the Website Part of the Growth Product
 
-The website strategy was intentionally ambitious for a small organization.
+The website wasn't just a place to publish information.
 
-I wanted it to become a useful destination for women’s football—not just a digital brochure for one team.
+It needed to support multiple customer journeys.
 
-The plan included:
+A visitor might be:
 
-- SEO;
-- linkbuilding;
-- email capture;
-- newsletters;
-- player profiles;
-- team information;
-- fundraising;
-- sponsorship;
-- and broader football content. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
+- discovering women's tackle football for the first time
+- deciding whether to attend a game
+- looking for the schedule
+- considering joining the team
+- researching a player
+- evaluating a sponsorship
+- already following the Majestics and returning for updates
 
-That changed the role of the site.
+Those users had different needs.
 
-Instead of:
+The digital experience needed to help each of them answer:
 
-**“Someone already knows the Majestics, so they visit the website.”**
+> **What is this?**
 
-I wanted:
+> **Why should I care?**
 
-**“Someone searches for something related to women’s football, discovers us, and enters the Majestics ecosystem.”**
+> **What can I do next?**
 
----
-
-## Use Content to Create Acquisition
-
-The content strategy was designed around search intent rather than only team news.
-
-Only part of the editorial plan was traditional:
-
-- player stories;
-- team news;
-- game recaps.
-
-The majority was intended to be long-tail, evergreen content about topics such as:
-
-- football skills;
-- equipment;
-- workouts;
-- nutrition;
-- drills;
-- and how to play women’s football. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
-
-The reasoning was:
-
-**Game recaps serve the audience you already have.**
-
-**Searchable educational content can create the audience you don’t have yet.**
-
-That was especially important for a niche organization without the budget to buy large amounts of awareness.
+That meant connecting content, search visibility, email capture, ticketing, and calls to action rather than treating the site as a static brochure.
 
 ---
 
-## Give Every Channel a Conversion Goal
+## Use Content to Create Discovery
 
-I did not want website traffic to be the final metric.
+For a niche sports organization, awareness itself was a product problem.
 
-The marketing plan explicitly included conversion measurement and Google Analytics goals. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
+People couldn't become fans of a team they didn't know existed.
 
-A visitor could convert into different kinds of value:
+Search and content therefore played an important role in the strategy.
 
-**Fan → email subscriber**
+The opportunity wasn't simply ranking for the team name.
 
-**Prospective athlete → player**
+People interested in:
 
-**Visitor → season-ticket holder**
+**women's football**
 
-**Business → sponsor**
+**Seattle sports**
 
-**Supporter → donor or booster-club member**
+**players**
 
-The conversion was different depending on the customer, but the principle was the same:
+**games**
 
-**What meaningful action should this person take next?**
+**community events**
 
----
+and related topics could discover the Majestics before they ever knew to search for the organization directly.
 
-## Remarketing the People Who Almost Converted
+That meant player profiles, schedules, news, and other content weren't just communications.
 
-Another part of the strategy was remarketing.
+They were acquisition surfaces.
 
-Conversion tracking was already being considered not simply for reporting but as a way to re-engage visitors who showed interest and left without taking a meaningful action.
-
-The plan specifically contemplated remarketing visitors who did not become:
-
-- players;
-- sponsors;
-- or email subscribers. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
-
-That is the same growth problem I’ve worked on in much larger companies:
-
-**Someone showed intent. Why did the relationship end there?**
-
-For a small organization, recovering even a relatively small number of those users can matter.
+Each could create a new entry point into the fan journey.
 
 ---
 
-## Make Sponsorship a Product
+## Connect Audience Growth to Revenue
 
-Sponsorship was also a conversion funnel.
+Audience growth alone wasn't the business objective.
 
-The plan separated cash and trade sponsorships and called for structured sponsor outreach rather than relying entirely on personal relationships. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
+For a small sports organization, the system ultimately needed to create economic value.
 
-The digital strategy included:
+That meant connecting attention to actions like:
 
-**prospect → outreach → follow-up → sponsorship offer → relationship**
+**Game attendance**
 
-with email campaigns designed around different sponsor types. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
+**Season-ticket ownership**
 
-I also thought about sponsorship as a package of measurable assets:
+**Sponsorship**
 
-- website visibility;
-- game-day exposure;
-- social distribution;
-- email distribution;
-- physical branding;
-- and access to the team’s audience.
+**Merchandise**
 
-That turns sponsorship from:
+**Player recruitment**
 
-**“Please support our team.”**
+**Repeat engagement**
 
-into:
+The more effectively the organization could grow and understand its audience, the stronger its value proposition also became to potential sponsors.
 
-**“Here is the audience and value we can provide your business.”**
+That created a reinforcing loop:
 
----
+### More discovery
+↓
+### Larger audience
+↓
+### More attendance and engagement
+↓
+### Stronger sponsor value
+↓
+### More resources to grow the organization
 
-## Reduce Costs as Well as Grow Revenue
+Growth wasn't a campaign.
 
-Growth does not only happen on the revenue side.
-
-For a resource-constrained organization, reducing a major expense can have the same bottom-line impact as increasing sales.
-
-One example was the game-day experience.
-
-Instead of maintaining a costly traditional concession model, we brought in local food trucks.
-
-That simultaneously:
-
-- reduced concession-related costs;
-- created a better event experience;
-- gave local businesses an audience;
-- and made the game feel like more than just the game itself.
-
-This reinforced something I’ve continued to use in product work:
-
-**The best growth opportunities sometimes sit outside the marketing funnel.**
+It was a system.
 
 ---
 
-## Design the Event, Not Just the Advertising
+## Work Within Real Constraints
 
-We also changed the product we were marketing.
+This wasn't a professional sports organization with a large growth department and significant media budget.
 
-If the game-day experience is not compelling, marketing can only do so much.
+Resources were limited.
 
-So the work expanded into:
+That made prioritization especially important.
 
-- food trucks;
-- stronger game-day programming;
-- community partnerships;
-- media outreach;
-- promotional events;
-- and special guests.
+The strategy needed to favor work that could compound:
 
-The goal was to make attending a Majestics game a stronger experience even for someone who was not already deeply invested in women’s football.
+- organic discovery
+- reusable content
+- owned audience growth
+- email lifecycle
+- better conversion paths
+- repeat attendance
+- sponsor relationships
 
-That created a larger potential audience than simply marketing to existing football fans.
+Instead of requiring the organization to continually purchase another unit of growth, these investments could make future growth easier.
 
----
+That principle has stayed with me:
 
-## Measure What Matters
-
-The plan included measurable objectives around:
-
-- website traffic;
-- site-to-email conversion;
-- subscriber growth;
-- attendance;
-- sponsorship;
-- and fundraising. 2016%20Seattle%20Majestics%20Marketing%20Plan.pdf.pdf
-
-The important change was cultural.
-
-Instead of:
-
-**“We posted a lot this season.”**
-
-the questions became:
-
-**Did people come?**
-
-**Did they subscribe?**
-
-**Did they buy?**
-
-**Did they come back?**
-
-**Did sponsors see value?**
-
-**Did the organization become financially healthier?**
+> **When resources are limited, prioritize capabilities that keep producing value after the initial work is finished.**
 
 ---
 
 ## Outcome
 
-The 2016 season produced meaningful results.
+The work contributed to a meaningful organizational milestone:
 
-My public career record from the period documents:
+# The Seattle Majestics achieved their first positive-cash-flow year.
 
-- the first positive-cash-flow year in Seattle Majestics history;
-- roughly 600 attendees at the season opener, about 400 more than the prior year;
-- roughly 300 attendees at each of the other three home games, about 100 more year over year;
-- and more than 100 season-ticket holders. LinkedinPDF.pdf
+That period also included substantial increases in **game attendance and season-ticket ownership**.
 
-Those outcomes did not come from one campaign.
+I don't attribute those outcomes to a single website change, marketing channel, or campaign.
 
-They came from treating growth as a connected system:
+They were the result of improving how multiple parts of the organization worked together around the same audience.
 
-**better experience + better discovery + better conversion + better monetization + better measurement**
+That's what makes this case useful to me.
 
-rather than relying on a single marketing channel.
+The growth didn't come from finding one magical channel.
 
----
-
-## Why This Case Matters to Me
-
-The Majestics had constraints that would normally be treated as disadvantages:
-
-- very limited budget;
-- small organization;
-- niche audience;
-- limited mainstream media attention;
-- and few dedicated resources.
-
-Those constraints forced prioritization.
-
-We could not do everything.
-
-So the question became:
-
-**What can we build once that creates value repeatedly?**
-
-A searchable article can attract people long after it is published.
-
-An email list becomes more useful every season.
-
-A better website captures more value from every future campaign.
-
-A sponsor relationship can compound.
-
-A better game-day experience gives people a reason to return.
-
-That is growth infrastructure.
+It came from connecting the system.
 
 ---
 
-## What I’d Do Today
+## What I Learned
 
-I would preserve the same overall system, but the implementation would be much more sophisticated.
+The Majestics taught me an early lesson that I later applied in much larger organizations:
 
-I would build a clear audience model around groups such as:
+> **A customer journey crosses organizational boundaries whether the organization is designed that way or not.**
 
-**fans · prospective players · families · sponsors · donors · community partners**
+Fans don't distinguish between marketing, ticketing, content, sponsorship, product, and community.
 
-and instrument each journey separately.
+They experience one team.
 
-I would connect:
+The same is true of customers evaluating an education program, subscribers using a streaming service, or planners making inventory decisions.
 
-**source → content → visit → signup → ticket purchase → attendance → repeat attendance**
+The organization sees functions.
 
-so we could understand which acquisition paths actually produced durable fans.
+The customer sees an experience.
 
-I would also use modern automation to create lifecycle journeys around:
-
-- first-time attendees;
-- past ticket purchasers;
-- prospective players;
-- abandoned purchases;
-- donors;
-- and sponsor prospects.
-
-AI-assisted content and development would also make a strategy like the original long-tail SEO plan far less resource-intensive today.
+Good product work connects the two.
 
 ---
 
-## What This Taught Me
+## Why This Case Is Here
 
-The Majestics taught me that growth is not a channel.
+This is an earlier and smaller-scale project than my work at Galvanize, Prime Video, or Nike.
 
-It is a system.
+I include it because it shows the beginnings of a pattern that became central to my career:
 
-SEO alone was not the strategy.
+**Understand the customer → connect fragmented signals → design the journey → build reusable capabilities → measure business outcomes.**
 
-Email alone was not the strategy.
+It also happens to be a problem I still care deeply about:
 
-Social, tickets, sponsorships, content, fundraising, and game-day experience were not separate marketing projects.
+### How do you help more people discover and engage with women's sports?
 
-They were connected parts of one customer journey.
+The scale of the problems I've worked on has changed substantially since then.
 
-The most useful question was always:
-
-**“What happens after this?”**
-
-Someone finds an article.
-
-What happens after that?
-
-Someone visits the website.
-
-What happens after that?
-
-Someone comes to a game.
-
-What happens after that?
-
-Someone buys once.
-
-What happens after that?
-
-A growth system exists when the answers connect.
+That question hasn't.
 
 ---
 
-## My Role
+## Confidentiality
 
-**Seattle Majestics — Director of Marketing**
-
-My work included:
-
-- growth strategy;
-- website redesign;
-- SEO;
-- content strategy;
-- email marketing;
-- analytics and conversion measurement;
-- sponsorship;
-- fundraising;
-- season-ticket promotion;
-- remarketing;
-- community partnerships;
-- and game-day experience design.
-
-The role was unusually hands-on because the organization was small.
-
-Strategy and execution were rarely separate.
-
----
-
-## Confidentiality Note
-
-This case study is reconstructed from my own marketing plan and public professional record.
-
-Private customer information, account credentials, sponsor communications, and other non-public operational materials are not included.
+This case study describes my work and the organization's outcomes at a high level. Internal financial details, customer information, sponsorship data, and other non-public operating metrics have intentionally been omitted.
