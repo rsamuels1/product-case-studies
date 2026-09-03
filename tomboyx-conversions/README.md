@@ -1,433 +1,270 @@
-# 🩲 TomboyX — Diagnosing and Rebuilding an Ecommerce Conversion Experience
+# 🩲 TomboyX — Turning an Ecommerce Audit Into a Conversion-Focused Redesign
 
-**Ecommerce · Conversion Rate Optimization · Customer Segmentation · Experimentation · Analytics · Hands-On Building**
+**Ecommerce · Conversion Optimization · Customer Journey · Shopify · Analytics · Experimentation**
 
-## The Context
+> **Diagnosing where customers were getting stuck, translating those signals into product decisions, and helping rebuild the ecommerce experience around a clearer path to purchase.**
 
-TomboyX was a growing ecommerce brand with a distinctive product and customer base.
+## At a Glance
 
-The opportunity wasn’t simply to drive more traffic.
-
-It was to make better use of the traffic and customer intent the business already had.
-
-I approached the work as a full-funnel growth problem:
-
-**Acquisition → landing experience → product discovery → product evaluation → checkout → retention**
-
-The goal was to identify where the existing experience was creating friction, where customer behavior could tell us what people actually wanted, and which changes were most likely to improve conversion.
+**Role:** Growth & Ecommerce Consultant  
+**Scope:** Analyzed the customer journey, identified conversion friction, developed recommendations, and later helped rebuild the Shopify ecommerce experience.  
+**Customer:** Consumers discovering and purchasing TomboyX apparel online.  
+**Problem:** Traffic and customer interest didn't automatically translate into an efficient path to purchase; the experience contained friction across discovery, evaluation, navigation, and checkout.  
+**Approach:** Combined behavioral analytics, technical analysis, customer-journey thinking, and conversion optimization to separate symptoms from underlying product problems.  
+**Outcome:** The initial audit evolved beyond recommendations into hands-on work rebuilding the Shopify experience and establishing a stronger foundation for ecommerce growth.
 
 ---
 
 ## The Problem
 
-Ecommerce growth problems often get framed as acquisition problems:
+TomboyX had something many ecommerce companies struggle to create:
 
-**“How do we get more people to the site?”**
+**a distinctive brand people genuinely cared about.**
 
-But more traffic doesn’t help much if the site makes it difficult for customers to find the right product, understand what to buy, or complete a purchase.
+But brand affinity doesn't automatically create a great ecommerce experience.
 
-My initial audit surfaced opportunities across several parts of the experience:
+The website still needed to help someone move successfully from:
 
-- homepage hierarchy;
-- customer segmentation;
-- site search;
-- product discovery;
-- product pages;
-- cart abandonment;
-- checkout;
-- analytics;
-- SEO;
-- paid acquisition;
-- and retention.
-
-The more useful question became:
-
-**“Where is customer intent being lost?”**
-
----
-
-## Start With the Existing Customer Journey
-
-One of the first things I noticed was that valuable homepage space was not consistently guiding users toward the top of the purchasing funnel.
-
-That suggested a basic product principle:
-
-**The most visible parts of the site should help customers decide what to do next.**
-
-Rather than treating the homepage primarily as a brand canvas, I wanted it to work harder as a product-discovery surface.
-
-That meant looking at:
-
-- what customers searched for;
-- which products received the most interest;
-- which pages people entered through;
-- and which experiences actually led toward purchase.
-
-The site itself could tell us what deserved more visibility.
-
----
-
-## Customer Segmentation Before Personalization
-
-The audit also identified customer personas and segmentation as important foundations.
-
-Different customers may arrive with very different needs, language, purchase history, and intent.
-
-Understanding those groups could improve:
-
-- keyword strategy;
-- landing-page relevance;
-- product merchandising;
-- messaging;
-- retention;
-- and targeted conversion experiences.
-
-I also identified past-purchaser reactivation as a separate opportunity rather than treating every visitor like a brand-new prospect.
-
-The broader idea was:
-
-**A returning customer should not necessarily receive the same growth experience as someone discovering the brand for the first time.**
-
----
-
-## Site Search as Customer Research
-
-One of the most interesting opportunities was internal site search.
-
-Site search is easy to think of as a utility.
-
-I saw it as a source of direct customer intent.
-
-Search behavior could tell us:
-
-- which products customers actively wanted;
-- which terms were most common;
-- where people tended to start searches;
-- which autocomplete suggestions led to purchases;
-- and which searches returned no results.
-
-Those zero-result searches were especially useful.
-
-If customers repeatedly search for something that does not exist—or cannot be found—that is direct evidence of an unmet expectation.
-
-The recommendation was to instrument site search and use that behavior to influence merchandising, homepage placement, inventory thinking, and product discovery. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-Instead of asking:
-
-**“What products do we want to feature?”**
-
-we could increasingly ask:
-
-**“What products are customers already telling us they want?”**
-
----
-
-## Make High-Intent Pages Easier to Reach
-
-I also recommended identifying the strongest product landing pages through analytics and search data, then surfacing those experiences more prominently. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-That matters because ecommerce navigation often reflects how the company categorizes products rather than how customers discover them.
-
-The opportunity was to use observed behavior to shorten the path between:
-
-**interest → relevant product → purchase**
-
-That same thinking applied to paid acquisition.
-
-If an ad or keyword expresses specific intent, the landing experience should match that intent rather than forcing the customer to restart their search from a generic homepage.
-
----
-
-## Product Pages as an Experimentation Surface
-
-Product pages were another major testing opportunity.
-
-Rather than assuming the existing page design was correct, I identified specific elements that could be experimentally evaluated.
-
-For example:
-
-**Does product video help customers make a purchase decision?**
-
-That becomes a straightforward A/B test:
-
-**Product page with video vs. product page without video**
-
-with conversion and downstream behavior as the outcome. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-Other product-page questions could be handled the same way.
-
-The important shift is from:
-
-**“I think this design is better.”**
+**“I like this company.”**
 
 to:
 
-**“I think this design will change customer behavior, and here is how we can test that.”**
+**“I found the right product, understand what I'm buying, trust the experience, and I'm ready to purchase.”**
+
+My initial work began as an audit of TomboyX's digital customer journey.
+
+The obvious question was:
+
+> **How do we increase conversion?**
+
+But “conversion” isn't really a problem.
+
+It's an outcome.
+
+The useful question was:
+
+> **Where is the customer getting stuck, and what is preventing them from confidently taking the next step?**
 
 ---
 
-## Cart Abandonment Is a Symptom
+## Diagnose the Journey Before Prescribing the Fix
 
-Cart abandonment was one of the major issues I wanted to investigate.
+I looked across the ecommerce experience rather than treating individual pages as isolated conversion problems.
 
-But “reduce cart abandonment” is not really a product strategy.
+That included questions around:
 
-The real question is:
+- how customers discovered products
+- how easily they could navigate the catalog
+- whether product information answered the questions needed to purchase
+- how search supported product discovery
+- where technical or UX friction appeared
+- how customers moved between content and commerce
+- where the checkout process introduced unnecessary resistance
+- whether measurement was sufficient to understand what was actually happening
 
-**Why does someone demonstrate strong purchase intent and then stop?**
+The goal wasn't to produce a generic list of ecommerce best practices.
 
-Possible friction can exist across:
+It was to identify **specific friction that could plausibly explain customer behavior**.
 
-- product confidence;
-- price clarity;
-- shipping;
-- checkout complexity;
-- form requirements;
-- trust;
-- mobile usability;
-- or simple distraction.
+That distinction matters.
 
-My audit proposed both behavioral analysis and concrete experience changes around the final stages of the funnel.
+A recommendation like:
 
----
+> **“Improve product pages.”**
 
-## Reduce Checkout Friction
+isn't actionable.
 
-One specific principle was to remove unnecessary work from checkout.
+A useful product hypothesis sounds more like:
 
-For example, I questioned whether customers needed to manually provide information that could be inferred from something they had already entered.
+> **“Customers are reaching products but don't have enough information to confidently evaluate them. If we improve the information available at the decision point, more qualified customers should continue toward purchase.”**
 
-The broader rule was:
-
-**Every unnecessary field is another opportunity to abandon.**
-
-I also looked at whether checkout was sufficiently focused and isolated from unrelated distractions. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-At the highest-intent point in the funnel, the experience should help the customer finish the task they already decided to start.
+That framing turns an observation into something a team can build and measure.
 
 ---
 
-## Recover Intent Before It Disappears
+## Separate Evidence From Recommendations
 
-Not every customer who leaves is lost permanently.
+The audit surfaced opportunities across multiple parts of the funnel.
 
-I identified exit experiences and email capture as another potential intervention.
+Some were measurement problems.
 
-If someone has demonstrated meaningful interest but is about to leave, an appropriate recovery experience could create a second chance to continue the relationship.
+If site search wasn't sufficiently instrumented, for example, we couldn't reliably understand what customers were trying to find or where the existing catalog experience was failing them.
 
-That might mean:
+Other opportunities involved product evaluation.
 
-- email capture;
-- a relevant offer;
-- a reminder;
-- or later retargeting.
+Product imagery, video, descriptions, sizing information, navigation, and merchandising all influence whether a customer can answer:
 
-The important part is not simply displaying a pop-up.
+> **“Is this the right product for me?”**
 
-It is determining whether the intervention creates incremental conversion without degrading the overall experience. TomboyX%20-%20Technical%20Marketing.pdf.pdf
+And other opportunities appeared later in the journey, where unnecessary checkout friction could cause someone who had already decided to buy to abandon the process.
 
----
+I treated those differently.
 
-## Build the Measurement Foundation First
+The goal wasn't to present every possible optimization as equally important.
 
-None of these ideas matter if you cannot tell whether they worked.
+It was to distinguish:
 
-The audit emphasized fixing the analytics foundation alongside the customer experience.
+**What do we know? → What do we suspect? → What should we measure? → What should we test? → What should we build?**
 
-That included areas like:
-
-- event and conversion tracking;
-- campaign tagging;
-- acquisition attribution;
-- funnel analysis;
-- traffic measurement;
-- and conversion reporting. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-For an ecommerce business, I wanted to understand more than traffic.
-
-Important questions included:
-
-- What is the conversion rate?
-- What is the average order value?
-- Where does abandonment happen?
-- Which acquisition sources create valuable customers?
-- What drives repeat purchase?
-- What is a customer worth over time?
-
-The original audit explicitly considered metrics such as cart abandonment, traffic sources, marketing ROI, lifetime value, social-channel value, and repeat-purchase behavior. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
----
-
-## Fix the Foundation Before Scaling Acquisition
-
-The growth roadmap was deliberately sequenced.
-
-Before pouring more money into paid acquisition, I wanted the underlying system to be healthier.
-
-That meant addressing:
-
-**SEO → site experience → analytics → conversion → acquisition**
-
-rather than jumping directly to:
-
-**buy more traffic**
-
-The proposal explicitly paired infrastructure work across SEO, the site, and analytics with future acquisition strategies such as paid social, search marketing, and content. TomboyX%20-%20Technical%20Marketing.pdf.pdf
-
-The reasoning was simple:
-
-**Traffic becomes more valuable when the system receiving it converts better.**
+That framework helped turn a broad technical-marketing audit into a product roadmap.
 
 ---
 
 ## From Audit to Implementation
 
-The work did not stay entirely at the recommendation level.
+The work didn't stop with recommendations.
 
-I later worked hands-on on TomboyX's Shopify site redesign.
+I later helped rebuild TomboyX's ecommerce experience on Shopify.
 
-That made the engagement especially useful to me because it connected two kinds of work that are often separated:
+That changed the nature of the work significantly.
 
-**finding the opportunity**
+It's relatively easy to identify a problem from the outside.
+
+Shipping a solution requires making decisions within real constraints:
+
+- existing technology
+- catalog structure
+- content requirements
+- analytics
+- marketing needs
+- customer expectations
+- engineering effort
+- business priorities
+
+The project therefore moved from:
+
+**“Here's what I think is wrong.”**
+
+to:
+
+**“Which problems are important enough to solve, and how should the actual experience change?”**
+
+That transition—from analysis into implementation—is the part of the work I find most valuable.
+
+---
+
+## Treat Discovery and Conversion as One System
+
+One of the broader lessons from the work was that ecommerce conversion doesn't begin at checkout.
+
+A customer can fail to convert because:
+
+**They couldn't find the product.**
+
+↓
+
+**They found it but couldn't evaluate it.**
+
+↓
+
+**They evaluated it but weren't confident enough to buy.**
+
+↓
+
+**They decided to buy but encountered unnecessary friction.**
+
+Those are different problems.
+
+They require different solutions.
+
+That meant looking at search, navigation, merchandising, product information, content, and checkout as parts of the same decision journey rather than separate website features.
+
+The job of the experience was to progressively answer:
+
+> **Can I find it?**
+
+> **Is this right for me?**
+
+> **Do I trust this?**
+
+> **Can I buy it easily?**
+
+---
+
+## Build Measurement Into the Product
+
+The audit also reinforced something that became increasingly important throughout my career:
+
+> **If you can't observe the customer decision, it's difficult to improve it systematically.**
+
+Measurement wasn't something to add after redesigning the site.
+
+It was part of the product.
+
+Instrumentation around search, navigation, product interaction, funnel progression, and conversion created the feedback loop needed to distinguish between:
+
+**“We changed something.”**
 
 and
 
-**helping build the experience**
+**“We made the experience better.”**
 
-I wasn't only analyzing what the funnel should do.
-
-I was also close enough to the implementation to understand the practical tradeoffs involved in changing it.
+That same principle later shaped my work building analytics and experimentation infrastructure at Galvanize and self-service decision products at Prime Video.
 
 ---
 
-## How I Would Prioritize the Roadmap
+## What I Actually Owned
 
-I would group the opportunities into three layers.
+My work with TomboyX spanned two related phases.
 
-### Foundation
+### 1. Diagnosis and strategy
 
-Make sure the business can reliably measure what customers are doing.
+I analyzed the existing ecommerce experience, identified technical and customer-journey friction, and developed prioritized recommendations around measurement, discovery, product evaluation, conversion, and experimentation.
 
-- conversion instrumentation;
-- funnel tracking;
-- campaign attribution;
-- site-search analytics;
-- SEO fundamentals.
+### 2. Implementation
 
-### Friction
+I later helped rebuild the company's Shopify ecommerce experience, translating those insights into decisions about how the actual customer journey should work.
 
-Remove problems affecting people who already demonstrate intent.
+That distinction is important.
 
-- checkout simplification;
-- cart abandonment research;
-- product-page UX;
-- mobile experience;
-- landing-page relevance.
+Some ideas surfaced during the original audit as **recommendations or hypotheses**.
 
-### Growth
+The later Shopify work was **implementation**.
 
-Once the first two layers are healthier, increase the amount of qualified traffic entering the system.
-
-- SEO;
-- paid search;
-- paid social;
-- retargeting;
-- content;
-- customer reactivation.
-
-This sequencing prevents acquisition spend from masking deeper product problems.
+I don't treat proposed experiments as shipped outcomes.
 
 ---
 
-## The Experiments I’d Run
+## What Made This Hard
 
-A useful initial backlog would include:
+**Brand and conversion had to coexist.**  
+TomboyX had a strong identity. Improving ecommerce performance couldn't come at the expense of what made customers connect with the brand.
 
-1. Product page with vs. without video
-2. High-intent landing page vs. generic homepage for paid traffic
-3. Simplified checkout vs. existing checkout
-4. Search-informed homepage merchandising vs. manually selected merchandising
-5. Exit-intent recovery experience vs. no intervention
-6. Returning-customer experience vs. standard first-visit experience
+**The funnel crossed many surfaces.**  
+Discovery, search, navigation, product information, content, and checkout all influenced conversion.
 
-Each experiment should have:
+**Not every observation was evidence.**  
+Some opportunities could be supported directly by behavior or technical findings. Others needed instrumentation or experimentation before we could know whether they mattered.
 
-**a hypothesis → target customer → primary metric → guardrail metric → decision rule**
-
-The objective isn't to run tests for the sake of testing.
-
-It's to progressively replace assumptions with evidence.
+**Recommendations had to become software.**  
+Once the work moved into the Shopify rebuild, ideas had to survive real technical and business constraints.
 
 ---
 
-## What I'd Do Today
+## What I Learned
 
-The core strategy would be very similar.
+TomboyX helped shape one of the product habits I've carried through the rest of my career:
 
-The biggest difference would be speed.
+> **Don't optimize the metric. Diagnose the decision that produces the metric.**
 
-Today I would combine product analytics, session-level behavioral data, customer interviews, and AI-assisted prototyping to move much faster from:
+A conversion rate can tell you that something is happening.
 
-**signal → hypothesis → prototype → test**
+It doesn't tell you why.
 
-I would also connect acquisition and onsite behavior more tightly so we could understand not only which channels convert, but which combinations of:
+The useful work is understanding where the customer decision breaks down, forming a hypothesis about why, changing the experience, and measuring what happens next.
 
-**customer segment × acquisition intent × landing experience × product interaction**
+It also reinforced the value of moving beyond recommendations.
 
-create the strongest outcomes.
+An audit can identify opportunities.
 
-And I would treat zero-result searches, abandoned carts, and failed checkout paths as continuously generated product-discovery inputs.
+A product changes the experience.
 
----
-
-## What This Taught Me
-
-TomboyX reinforced something I had already started learning in growth work:
-
-**Conversion optimization is really customer-problem discovery.**
-
-A low-converting page is not the problem.
-
-A high-abandonment checkout is not the problem.
-
-A zero-result search is not the problem.
-
-They are signals that somewhere between:
-
-**“I want something”**
-
-and
-
-**“I got what I came for”**
-
-the experience failed to help the customer.
-
-The job is to find that moment, understand why it happened, and test a better version.
+I want to do both.
 
 ---
 
-## My Role
+## Confidentiality
 
-My work included:
+This case study describes my work with TomboyX at a high level.
 
-- ecommerce funnel analysis;
-- conversion-rate optimization;
-- customer segmentation;
-- analytics strategy;
-- site-search strategy;
-- SEO;
-- landing-page strategy;
-- experimentation;
-- checkout optimization;
-- retention and reactivation thinking;
-- and hands-on Shopify implementation.
-
-The engagement combined strategy, analytics, experimentation thinking, and direct work on the ecommerce experience.
-
----
-
-## Confidentiality Note
-
-This case study is reconstructed from my own work and focuses on the product and growth approach.
-
-It does not publish private customer data, account access, proprietary analytics exports, or other sensitive business materials.
+Customer data, internal business metrics, detailed analytics, proprietary implementation information, and other confidential materials have intentionally been omitted.
