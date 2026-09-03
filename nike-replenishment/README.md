@@ -1,312 +1,233 @@
-# 👟 Nike — Building an Automated Replenishment System for a DTC Supply Chain
+# 👟 Nike — Building a Global Inventory Replenishment Product
 
-**Product Strategy · Forecasting · Optimization · Automation · Supply Chain · Data Products · Global Scale**
+**Product Strategy · Forecasting · Optimization · Automation · Supply Chain · Global Scale**
 
-## Context
+> **From a planner dashboard to an automated decision system positioning inventory against predicted consumer demand.**
 
-When I joined Nike in May 2020, the company was in the middle of a major shift toward direct-to-consumer commerce.
+## At a Glance
 
-The original transformation had been expected to happen over several years.
+**Role:** Product lead, Replenishment Optimization  
+**Scope:** Owned the product from early problem definition and pilot through automation and global expansion, leading data science and analytics while partnering across engineering, supply chain, planning, operations, finance, and regional teams.  
+**Product:** A forecasting and optimization system that determined which Nike inventory should move, how much should move, and where it should go before consumer orders occurred.  
+**Scale:** Expanded from a single regional service center across North America and Europe, with the approach adapted for additional geographies.  
+**Outcome:** Approximately **97% of positioned inventory met its target window for consumer demand**, while the product delivered **measurable quarterly EBITDA impact** through more efficient fulfillment.
 
-COVID changed the timeline almost overnight.
-
-As consumer demand shifted rapidly toward Nike.com, the supply chain needed to support a much larger direct-to-consumer business without simply shipping every individual order from a small number of major distribution centers across the country.
-
-I had been hired to build a replenishment optimization product to support that future state.
-
-By the time I arrived, the future state was already here.
-
-There was no existing product, mature team, or established roadmap—just an early hypothesis about what might be needed, an intern assigned to help, and a problem that suddenly needed to be solved much faster.
+---
 
 ## The Problem
 
-Direct-to-consumer growth created a deceptively simple logistics problem:
+When I joined Nike in May 2020, the company was in the middle of a major shift toward direct-to-consumer commerce.
 
-**How do we put the right products closer to consumers before they order them?**
+That transformation had been expected to unfold over several years. COVID changed the timeline almost overnight.
 
-Shipping individual orders long distances from major distribution centers was expensive and could increase delivery time.
+As demand shifted rapidly toward Nike.com, the supply chain needed to support a much larger DTC business without shipping every individual order long distances from a small number of major distribution centers.
 
-Regional service centers offered another model.
+Regional service centers offered another model: move inventory in bulk closer to anticipated demand *before* a customer orders it.
 
-Instead of waiting for a customer to order a pair of shoes and then shipping that individual pair across the country, Nike could move inventory in bulk from major distribution centers to regional facilities closer to anticipated demand.
+That created the core product question:
 
-Then, when the customer actually ordered the product, it would already be nearby.
+> **Before an order exists, how do we decide which SKUs should move, how many units should move, where they should come from, and which regional facility should receive them?**
 
-That created a much harder product question:
+Getting that decision wrong had physical and financial consequences. Move too little and customers would still be served from distant distribution centers. Move too much — or move the wrong products — and inventory could sit unused.
 
-> **Before an order exists, how do we decide which SKUs should be moved, how many units should move, where they should come from, and which regional facility should receive them?**
+There was no existing product, mature team, or established roadmap when I arrived. There was an early hypothesis, an intern assigned to help, and a problem that suddenly needed to be solved much faster.
 
-Getting that wrong had real costs.
+---
 
-Move too little inventory and customers would still be served from distant distribution centers.
+## Discovery: Understand the Decision Before Building the Product
 
-Move too much—or move the wrong products—and inventory could sit unused at regional facilities.
+I started by shadowing inventory planners, talking with stakeholders across Nike's global supply chain, analyzing existing workflows, and building reporting to understand where consumer orders were being fulfilled versus where they potentially could have been fulfilled.
 
-The product therefore needed to predict demand well enough to make physical inventory decisions before customers made purchases.
-
-## Start With the Entire Supply Chain
-
-Before designing the product, I needed to understand how inventory actually moved through Nike.
-
-I talked with people across the global supply chain, shadowed inventory planners, analyzed existing workflows, and built reporting to understand where consumer orders were being fulfilled from versus where they potentially could have been fulfilled.
-
-The underlying data was fragmented.
-
-To understand whether a product should move, we needed to connect information including:
-
-- historical consumer demand
-- Nike.com behavior
-- current inventory positions
-- product and SKU attributes
-- seasonality and promotions
-- geographic demand
-- inventory ordered from manufacturers
-- expected arrival timing
-- distribution-center inventory
-- regional-service-center inventory
-- retail-store inventory
-- product availability on Nike.com
-- lead times and supply constraints
+The decision required connecting fragmented signals across consumer demand, product attributes, inventory availability, geography, inbound supply, seasonality, and lead times.
 
 The challenge wasn't simply forecasting demand.
 
-It was creating a sufficiently complete picture of **demand + availability + location + time** to make a physical inventory decision.
+It was creating a sufficiently complete picture of:
 
-## Build a Forecast for the Decision We Actually Needed to Make
+**demand + availability + location + time**
 
-Nike already had many forecasting teams and forecasting systems.
+to make a physical inventory decision.
 
-That created one of the hardest organizational problems of the project.
+---
 
-The natural question was:
+## Build the Forecast for the Decision We Actually Needed to Make
+
+Nike already had sophisticated forecasting teams and systems.
+
+That created an important product and organizational question:
 
 > **Why does Nike need another forecast?**
 
-Rather than assume an existing model would work, we evaluated the forecasts already available and the decisions they had been designed to support.
+Rather than assume an existing model would work, we evaluated available forecasts and the decisions they had been designed to support.
 
 None exactly matched our use case.
 
-Our product needed a forecast specifically suited to predicting near-term consumer demand at the level required to decide which inventory should be positioned closer to consumers.
-
-We borrowed useful inputs and thinking from existing forecasting work, but built a demand model around the replenishment decision itself.
-
-That distinction mattered.
+We needed to predict near-term consumer demand at the level required to decide which physical inventory should be positioned closer to consumers. We borrowed useful inputs and thinking from existing forecasting work, but built the demand model around the replenishment decision itself.
 
 **The goal wasn't to build the most universally correct forecast. It was to build the forecast that best supported this particular decision.**
 
-That also meant earning trust.
+That meant earning trust from teams with deep forecasting expertise and demonstrating through performance why this use case required a different approach.
 
-Forecasting was a mature and highly scrutinized discipline inside Nike, and teams understandably challenged whether a new model was necessary.
-
-We had to demonstrate through performance that ours was better suited to this specific operational use case.
+---
 
 ## V1: Put the Decision in Front of a Human
 
-We didn't begin with a fully automated global system.
+We didn't start by automating the supply chain.
 
-The first version was much simpler.
+The first version was a dashboard for inventory planners supporting the first regional service center.
 
-We built a dashboard for inventory planners supporting the first regional service center.
+The system generated the information planners needed to decide what inventory should move. Planners reviewed the output and manually assembled the "shopping lists" used to load trucks.
 
-The product generated the information planners needed to determine what inventory should move. Planners reviewed that output and manually assembled the "shopping lists" used to load trucks.
+The initial workflow looked roughly like this:
 
-Conceptually:
+**Demand forecast → Inventory availability → Planner recommendation → Truck load → Regional service center**
 
-**Demand forecast → inventory availability → planner recommendation → truck load → regional service center**
+Keeping a human in the loop gave us something extremely valuable before investing in full automation:
 
-This gave us something extremely valuable before investing in full automation:
+> **A way to test whether the underlying decision was actually good.**
 
-**a way to test whether the underlying decision was actually good.**
+### The Product Evolution
 
-## Measure the Inventory After We Move It
+**V1 — Decision support**  
+*"Here's the information you need."*
 
-A forecast alone wasn't enough to tell us whether the product worked.
+↓
 
-We needed to measure what happened to the physical inventory after our recommendation.
+**V2 — Recommendation engine**  
+*"Here's what we think you should do."*
 
-One of our most important measures was how long inventory remained at a regional service center before a consumer ordered it.
+↓
 
-If products consistently moved through the facility quickly, we were positioning useful inventory closer to real demand.
+**Mature product — Automated decision system**  
+*"Here's the decision."*
 
-If products sat too long, we had moved inventory that wasn't needed.
+---
 
-By the mature version of the product, approximately **97% of positioned inventory met our target window for consumer demand**, with roughly 3% aging beyond that threshold and becoming "stale" inventory that needed to be handled through other channels or opportunities.
+## Measure What Happened to the Inventory
+
+Forecast accuracy alone couldn't tell us whether the product worked.
+
+We needed to measure what happened to the **physical inventory after we moved it**.
+
+One of our most important measures was how long positioned inventory remained at a regional service center before a consumer ordered it.
+
+If products consistently moved through the facility quickly, we were positioning useful inventory close to real demand.
+
+If they sat too long, we had moved inventory that wasn't needed.
+
+### ~97% of positioned inventory met its target demand window
+
+By the mature version of the product, approximately **97% of positioned inventory met our target window for consumer demand**, with roughly 3% aging beyond the threshold and becoming stale inventory that needed to be handled through other channels or opportunities.
 
 That created a direct feedback signal for improving the system.
 
-## From Decision Support to Automated Decision-Making
+---
 
-Once the pilot demonstrated that the approach worked, we received funding to build the team, integrate the product into existing supply-chain systems, and expand the model.
+## From Recommendation to Automation
+
+Once the pilot demonstrated that the approach worked, we received funding to build the team, integrate the product into Nike's existing supply-chain systems, and expand it.
 
 We gradually removed manual steps.
 
-The dashboard became components.
-
-Components became services.
-
-The forecast became an input to a replenishment engine.
+The dashboard became components. Components became services. The forecast became an input to a replenishment engine.
 
 We built an API that could send replenishment decisions downstream into the systems responsible for moving inventory.
 
-Eventually, the process became automated.
-
-Every morning before trucks were loaded, the system could determine:
+Eventually, every morning before trucks were loaded, the system could determine:
 
 - which SKUs should move
 - how many units should move
 - which distribution center should supply them
 - which regional service center should receive them
 
-The output flowed into the operational systems responsible for loading and routing inventory.
+Those decisions flowed into the operational systems responsible for loading and routing inventory.
 
 The product had evolved from:
 
-**"Here is information a planner can use to make a decision."**
+> **"Here is information a planner can use to make a decision."**
 
 to:
 
-**"Here is the decision."**
+> **"Here is the decision."**
 
 Humans increasingly managed the system through performance targets and operating parameters rather than manually creating individual replenishment orders.
+
+---
 
 ## Build the Feedback Loop
 
 Automation didn't mean setting the algorithm once and walking away.
 
-We created standardized metrics across regional service centers so we could understand both the decisions the system made and their downstream consequences.
+We standardized performance metrics across regional service centers to understand both the decisions the system made and their downstream consequences.
 
-Those included measures such as:
+The basic loop became:
 
-- inventory the algorithm wanted but couldn't obtain
-- time inventory spent at a regional service center before consumer purchase
-- fulfillment and shipping time through regional facilities
-- shipping time for orders that still had to be fulfilled through major distribution centers
-- differences between regions and facilities
+**Predict → Move → Observe → Measure → Adjust**
 
-Those metrics gave us levers for changing the product.
+That allowed us to tune the product as conditions changed. Different regions could have different operating needs, and periods such as the holidays could require earlier or different inventory-positioning behavior.
 
-If a region needed faster delivery, we could adjust the system toward that goal.
+The result was a continuous decision system rather than a static forecast.
 
-Around periods such as the holidays, we could change timing and inventory-positioning behavior to prepare earlier for expected demand.
+---
 
-The product became a continuous decision system rather than a static forecast.
+## Scale Globally
 
-## Scale the System Across Geographies
+We began with a single regional service center and expanded across North America, eventually supporting multiple regional facilities across the United States.
 
-We began with a single regional service center.
+We then expanded into Europe.
 
-From there, the system expanded across North America, eventually supporting multiple regional facilities across the United States.
+Global expansion wasn't simply a matter of copying the US implementation. Regional infrastructure and operating requirements differed, and China had sufficiently different underlying systems that the model and approach needed to be adapted for its environment.
 
-We also expanded into Europe.
+That reinforced an important product lesson:
 
-Global expansion wasn't simply a matter of copying the US implementation.
+> **Global product strategy doesn't necessarily mean identical implementation.**
 
-Regional infrastructure, operational requirements, and external conditions differed.
+The product needed a common decision framework while allowing regional systems and constraints to shape how that framework was implemented.
 
-At one point, plans for a UK deployment were disrupted around Brexit, requiring us to adjust the rollout strategy and support a different European location.
+The capability also expanded beyond its original Nike.com fulfillment use case. Once inventory was intelligently positioned throughout the regional network, the same infrastructure could support retail replenishment.
 
-China presented another challenge entirely.
+---
 
-Its underlying systems were sufficiently different that the US/European implementation couldn't simply be plugged in. Instead, the China team adapted the model and approach for its environment.
+## Business Impact
 
-That reinforced an important lesson:
+This product didn't need to create additional demand for Nike products to create value.
 
-**Global product strategy doesn't necessarily mean identical implementation.**
+Its job was to help Nike serve existing and growing direct-to-consumer demand **more efficiently**.
 
-The product needs a common decision framework while allowing regional systems and constraints to shape how that framework gets implemented.
+We connected operational performance — including fulfillment location, shipping costs, delivery time, inventory utilization, and stale inventory — to financial outcomes.
 
-## Expand Beyond Ecommerce
-
-The regional network initially solved a direct-to-consumer fulfillment problem.
-
-But once inventory was positioned intelligently throughout the network, the same infrastructure could support more than Nike.com orders.
-
-Retail stores could also be replenished from regional service centers.
-
-What began as a response to rapidly changing ecommerce demand became a broader capability for positioning inventory across Nike's distribution network.
-
-## Connect Product Performance to Business Performance
-
-This product didn't necessarily create demand for Nike products.
-
-That made measuring its value more interesting.
-
-Its value came from enabling Nike to support growing direct-to-consumer demand **more efficiently**.
-
-We compared outcomes such as:
-
-- fulfillment through regional service centers versus major distribution centers
-- shipping costs
-- delivery times
-- inventory utilization
-- stale inventory
-- consumer delivery experience
-
-That allowed us to translate supply-chain performance into financial impact.
+### Measurable quarterly EBITDA impact
 
 By the time I left Nike, the product was delivering **meaningful, measurable quarterly EBITDA impact** through lower fulfillment costs and a more efficient direct-to-consumer supply chain.
 
-We also investigated second-order effects.
+We also investigated second-order consumer effects.
 
-For example:
+Our analysis indicated that faster fulfillment was associated with increased repeat ordering, connecting what initially looked like an internal supply-chain optimization problem back to the consumer experience.
 
-> **If getting an order to a customer faster improves their experience, does that change future purchasing behavior?**
-
-Our analysis indicated that faster fulfillment was associated with increased repeat ordering.
-
-That connected what initially looked like an internal supply-chain optimization problem back to the consumer experience.
+---
 
 ## What Made This Hard
 
-The technical system was only part of the challenge.
-
-We were simultaneously dealing with:
-
-**A compressed timeline.**  
-A transformation expected to unfold over years suddenly needed to happen much faster.
-
 **Forecast credibility.**  
-Nike already had sophisticated forecasting teams. We needed to demonstrate why this particular decision required a forecast optimized for a different purpose.
+Nike already had sophisticated forecasting organizations. We needed to demonstrate why this operational decision required a forecast optimized for a different purpose.
 
-**Fragmented inventory data.**  
-Making a replenishment decision required connecting information across manufacturing, ports, distribution centers, regional facilities, retail stores, and digital availability.
-
-**Stakeholder alignment.**  
-Supply chain, planning, engineering, analytics, data science, finance, geography teams, and leadership all had different perspectives on the problem.
-
-**Global variation.**  
-A product that worked in one geography couldn't always be copied directly into another.
+**Cross-functional complexity.**  
+The product crossed engineering, data science, analytics, supply chain, planning, operations, finance, regional teams, leadership, and other product organizations. Alignment was as important as the model itself.
 
 **Physical consequences.**  
-This wasn't simply software displaying the wrong number. Our decisions caused actual products to be loaded onto actual trucks and moved to another location.
+This wasn't software simply displaying the wrong number. Our decisions caused actual products to be loaded onto actual trucks and moved to another location.
 
 That made measurement, trust, and controlled rollout especially important.
 
-## How My Role Evolved
+---
+
+## My Role
 
 I owned the product from early problem definition through global expansion.
 
-My responsibilities included:
+I started with an intern, an undefined problem, and a hypothesis. Over four years, my role evolved into leading a global decision product spanning data science, analytics, engineering, planning, operations, finance, and regional supply-chain organizations.
 
-- product strategy and roadmap
-- customer and stakeholder discovery
-- workflow analysis
-- requirements and prioritization
-- demand-forecast product strategy
-- data and metric definitions
-- model requirements
-- engineering and data-science partnership
-- stakeholder alignment
-- pilot design
-- launch and adoption
-- system integration
-- global expansion
-- performance measurement
-- business-impact measurement
-
-My direct team included data scientists and data analysts, while the broader product required close collaboration across engineering, data engineering, supply chain, planning, operations, finance, geography teams, leadership, and other product organizations.
-
-The job changed significantly over time.
+My direct team included data scientists and data analysts, while the broader product required close partnership across Nike's technology and supply-chain organizations.
 
 At the beginning, I was trying to answer:
 
@@ -314,41 +235,25 @@ At the beginning, I was trying to answer:
 
 Eventually, I was managing a global decision system that automatically acted on that prediction.
 
-## What I'd Do Today
+---
 
-The system already had the beginnings of a feedback loop:
+## What I Learned
 
-**forecast → replenish → observe consumer demand → measure performance → adjust model**
+This product fundamentally changed how I think about product management.
 
-But humans still played an important role in interpreting performance and deciding how different operating parameters should change.
+**A product doesn't have to end at a screen.**
 
-With today's AI tooling, I'd explore closing more of that loop.
+The user can be a planner, an API, an automated ordering system, a warehouse operation — or ultimately a truck being loaded with physical inventory.
 
-An intelligent control layer could continuously evaluate performance across regions, identify changing conditions, recommend or make bounded adjustments to operating parameters, and explain why those adjustments were being proposed.
+It also changed how I think about business impact. A product doesn't always need to generate new demand to create enormous value.
 
-I wouldn't remove human oversight from high-impact supply-chain decisions.
-
-But I would reduce the amount of manual interpretation required to keep the system optimized as conditions change.
-
-## What This Taught Me
-
-This was my first product role centered on a physical rather than purely digital supply chain.
-
-It changed how I think about product management.
-
-A product doesn't have to end at a screen.
-
-The "user" can be a planner, an API, an automated ordering system, a warehouse operation, or ultimately a truck being loaded with physical inventory.
-
-It also taught me to think about business impact differently.
-
-Our product didn't need to make someone buy another pair of shoes to create value.
-
-Sometimes the product opportunity is:
+Sometimes the opportunity is:
 
 > **The customer is already buying the shoe. How do we build a system that gets it to them faster and at dramatically lower cost?**
 
-That combination of customer experience, operational efficiency, data, automation, and measurable financial impact became one of the most important product lessons of my career.
+That intersection of customer experience, operational efficiency, data, automation, and measurable financial impact became one of the most important product lessons of my career.
+
+---
 
 ## Confidentiality
 
