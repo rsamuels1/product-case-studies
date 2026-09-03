@@ -1,16 +1,30 @@
-# 🎓 Galvanize — Rebuilding the Customer Journey Around How People Actually Choose
+# 🎓 Galvanize — Building the Growth System Behind a Rapidly Scaling Education Business
 
-**Growth Product · Customer Research · Funnel Analytics · Experimentation · Lifecycle · Information Architecture**
+**Growth Product · Customer Research · Funnel Analytics · Experimentation · Lifecycle · Data Infrastructure**
 
-> **Using behavioral data and customer research to redesign the path from “I might want to learn this” to “I’m ready to enroll.”**
+> **Building the analytics and experimentation foundation for a rapidly expanding education business — and using it to redesign the customer journey around how people actually choose a new career.**
 
 ## At a Glance
 
-**Role:** Growth & Analytics Lead  
-**Scope:** Worked across analytics, acquisition, lifecycle marketing, experimentation, and the digital customer journey as Galvanize scaled its education business.  
-**Problem:** Prospective students were being asked to navigate a complicated, internally organized experience while making a high-consideration career decision.  
-**Approach:** Combined behavioral data, customer research, funnel analysis, and experimentation to understand how people actually evaluated Galvanize and restructure the experience around that journey.  
-**Outcome:** Built the analytics and experimentation foundation Galvanize used to understand acquisition and conversion, while helping shift the digital experience from an organization-centered structure toward a customer-centered journey.
+**Role:** Growth Product & Analytics  
+**Scope:** Led growth product work across analytics, acquisition, lifecycle marketing, experimentation, and Galvanize.com while helping establish the company's first data warehouse and analytics function.  
+**Environment:** Galvanize was expanding rapidly across the US, ultimately operating campuses in markets including Denver, Boulder, San Francisco, Seattle, Austin, New York, and Phoenix.  
+**Customer:** Prospective students making a high-consideration decision about education, career change, and a significant financial investment.  
+**Product:** The data, experimentation, and digital customer-journey capabilities used to understand acquisition, identify conversion friction, and improve how prospective students evaluated Galvanize.
+
+### The scale around the work
+
+During this period, Galvanize:
+
+- raised a **$45M Series B** to expand its technical education programs
+- operated **nine campuses** and had served **1,000+ students** by August 2016
+- publicly reported **90%+ job placement within six months** for immersive-program graduates
+- publicly reported **$30,000+ average annual salary increases** for immersive graduates
+- by Q1 2017 reported **8 campuses across 7 markets**, with **753 companies and 2,279 members** in its broader campus ecosystem
+
+Independent California regulatory data later reported an **86.3% in-field placement rate** among employment-eligible 2017 Data Science Immersive graduates, with **37 of 88 employed graduates earning more than $100,000**.
+
+These are company-level scale and student-outcome measures, not outcomes attributable solely to my work. They provide context for the environment in which I was building Galvanize's growth and analytics capabilities.
 
 ---
 
@@ -29,12 +43,19 @@ Before enrolling, they needed to answer questions like:
 - Can I fit it into my life?
 - Will this help me get a job?
 - What outcomes have other students had?
-- What is Galvanize like?
-- Why should I trust them?
+- Why should I trust Galvanize?
 
-But the digital experience wasn't necessarily organized around those questions.
+At the same time, Galvanize was expanding rapidly.
 
-Like many growing companies, Galvanize's website and marketing ecosystem reflected the organization that had built it: programs, campuses, teams, campaigns, events, and internal priorities.
+New campuses, programs, markets, acquisition channels, and customer touchpoints increased the complexity of understanding how someone went from:
+
+> **“Maybe I want to change careers.”**
+
+to:
+
+> **“I'm ready to enroll.”**
+
+Like many fast-growing companies, the digital experience reflected some of the organization that had built it: programs, campuses, teams, campaigns, events, and internal priorities.
 
 Customers didn't think that way.
 
@@ -42,13 +63,13 @@ They were trying to make a decision.
 
 That created the core product question:
 
-> **How do we organize the customer experience around the information people need to confidently take the next step?**
+> **How do we understand the customer journey well enough to organize the experience around what people need to confidently take the next step?**
 
 ---
 
 ## Build the Data Foundation First
 
-When I joined Galvanize, one of my first challenges was establishing a clearer view of the customer journey.
+One of my first challenges was establishing a clearer view of that journey.
 
 Acquisition data lived in marketing platforms. Website behavior lived elsewhere. Lead and enrollment information lived in other systems.
 
@@ -62,13 +83,13 @@ That made relatively simple questions surprisingly difficult:
 
 > Which experiences help someone move toward a decision?
 
-I helped establish Galvanize's initial data warehousing and analytics capabilities so we could connect those pieces of the journey.
+I built Galvanize's initial data warehouse and helped establish the ETL, self-service BI, web analytics, and experimentation capabilities needed to connect those pieces.
 
 Over time, that work grew into a dedicated analytics function.
 
-But the goal wasn't simply better reporting.
+But the goal wasn't better reporting for its own sake.
 
-It was to create enough visibility into customer behavior to make better product and growth decisions.
+It was to create enough visibility into customer behavior to make better product and growth decisions as the business scaled nationally.
 
 ---
 
@@ -110,11 +131,11 @@ the more useful question became:
 
 ## Map the Journey Around Customer Questions
 
-I combined behavioral data with customer research to understand the questions prospective students were trying to answer at different stages of their decision.
+I combined behavioral data with direct customer research to understand the questions prospective students were trying to answer at different stages of their decision.
 
 The exact path varied, but the underlying needs were remarkably consistent.
 
-Early in the journey, someone might be asking:
+Early in the journey:
 
 **Could I actually do this?**
 
@@ -148,7 +169,7 @@ It was part of a decision-making product.
 
 Once the journey was measurable, I could investigate where customer behavior diverged from what we expected.
 
-I looked at acquisition sources, landing-page behavior, navigation patterns, conversion paths, and lifecycle engagement to identify where prospective students appeared to stall or become confused.
+I looked across acquisition sources, landing-page behavior, navigation patterns, conversion paths, cohorts, segmentation, lifecycle engagement, and SEO behavior to identify where prospective students appeared to stall or become confused.
 
 That allowed us to form specific hypotheses rather than relying on general ideas like:
 
@@ -158,7 +179,7 @@ A useful experiment needed to answer something more concrete:
 
 > **If we make the information customers need at this stage easier to find and understand, are they more likely to continue toward enrollment?**
 
-That framing connected research, analytics, design, marketing, and experimentation around the same customer problem.
+That framing connected research, analytics, engineering, marketing, and experimentation around the same customer problem.
 
 ---
 
@@ -166,11 +187,11 @@ That framing connected research, analytics, design, marketing, and experimentati
 
 Landing-page testing was part of the work, but the larger opportunity was understanding how different experiences affected the entire customer journey.
 
-We experimented with how people entered the experience, what information they encountered, how programs were presented, and how we guided prospective students toward the next appropriate action.
+We experimented with how people entered the experience, what information they encountered, how programs were presented, information architecture, and how we guided prospective students toward the next appropriate action.
 
 The important distinction was:
 
-**Optimization wasn't about maximizing clicks.**
+> **Optimization wasn't about maximizing clicks.**
 
 It was about increasing the likelihood that someone could successfully move from uncertainty toward an informed decision.
 
@@ -200,7 +221,7 @@ We needed to understand:
 
 **Where did this person come from? → What did they need? → What did they experience? → What did they do next? → Did they ultimately enroll?**
 
-Connecting those signals gave us a much better foundation for deciding where to invest.
+Connecting those signals gave us a much better foundation for deciding where to invest as Galvanize entered new markets.
 
 ---
 
@@ -208,7 +229,7 @@ Connecting those signals gave us a much better foundation for deciding where to 
 
 As the work matured, my role increasingly became about building systems other people could use to make decisions.
 
-I helped establish Galvanize's initial data warehousing and analytics infrastructure and eventually grew the analytics function around it.
+I helped establish Galvanize's first data warehousing and analytics infrastructure, including the self-service BI and experimentation capabilities surrounding it, and eventually grew an analytics function around that foundation.
 
 That meant moving from:
 
@@ -218,6 +239,12 @@ to:
 
 **“Can we make this question consistently answerable?”**
 
+That distinction became increasingly important as the company expanded.
+
+A handful of analysts manually answering questions doesn't scale well across a national organization.
+
+Reusable data infrastructure, consistent measurement, experimentation, and self-service capabilities do.
+
 The same pattern would later become central to my work at Prime Video and Nike.
 
 A useful analysis solves today's question.
@@ -226,13 +253,80 @@ A useful product capability changes how the organization answers that class of q
 
 ---
 
+## The Environment We Were Scaling Into
+
+This work happened during an unusually fast period of company growth.
+
+Galvanize had raised an $18M Series A in 2014. In August 2016, it raised another **$45M Series B** specifically to expand its technical training programs.
+
+At that point, contemporary reporting described Galvanize as operating **nine campuses**, having served **more than 1,000 students**, and supporting more than **700 companies** in its broader membership ecosystem.
+
+By Q1 2017, Galvanize reported **eight campuses across seven markets**, with New York and Phoenix opening during that quarter alone. Those campuses contained **753 companies and 2,279 members**.
+
+The growth product and analytics systems we were building therefore weren't supporting a static website.
+
+They were supporting a customer journey becoming more complex as the company added markets, campuses, programs, acquisition channels, and customers.
+
+---
+
+## A Product With Tangible Customer Outcomes
+
+The underlying customer decision mattered because Galvanize was selling something much more consequential than access to software or content.
+
+People were trying to change careers.
+
+During this period, Galvanize publicly reported that graduates of its immersive programs achieved:
+
+### 90%+ job placement within six months
+
+and an:
+
+### Average annual salary increase of more than $30,000
+
+Those were company-reported figures, so I treat them as context rather than metrics from my own work.
+
+But independent regulatory reporting provides additional evidence of the underlying student outcomes.
+
+California's Bureau for Private Postsecondary Education reported that for Galvanize's 2017 Data Science Immersive:
+
+**138 students began the program**
+
+↓
+
+**118 graduated on time**
+
+↓
+
+**102 graduates were available for employment**
+
+↓
+
+**88 were employed in the field**
+
+That represents an **85.5% on-time completion rate** and an **86.3% in-field placement rate** among graduates available for employment.
+
+Of those 88 employed graduates:
+
+### 37 were reported earning more than $100,000.
+
+Those outcomes reinforced why the customer journey mattered.
+
+The goal wasn't simply generating another application.
+
+We were helping people evaluate a product capable of materially changing their careers and earning potential.
+
+---
+
 ## What Made This Hard
+
+**Rapid growth.**  
+The customer journey was becoming more complex while the company itself was adding campuses, markets, programs, and acquisition channels.
 
 **Long consideration cycles.**  
 Someone could interact with Galvanize many times before applying or enrolling, making last-click explanations of customer behavior incomplete.
 
 **Multiple customer questions.**  
-Prospective students weren't simply comparing products. They were evaluating a career change, financial commitment, learning experience, and employment outcome at the same time.
+Prospective students weren't simply comparing products. They were evaluating a career change, financial commitment, learning experience, and employment outcome simultaneously.
 
 **Fragmented data.**  
 Acquisition, behavioral, lifecycle, and enrollment signals lived across different systems and needed to be connected before the full journey became visible.
@@ -244,11 +338,15 @@ The customer journey crossed marketing, product, admissions, programs, campuses,
 
 ## My Role
 
-My work at Galvanize spanned acquisition, customer analytics, experimentation, lifecycle marketing, and product experience.
+My work at Galvanize spanned growth product, acquisition, customer analytics, experimentation, lifecycle marketing, and product experience.
 
-I was hands-on with customer research and behavioral analysis, helped establish the company's initial data warehousing capabilities, and eventually grew an analytics function around that foundation.
+I conducted direct customer research, used funnel and cohort analysis and segmentation to understand customer behavior, and worked across engineering, marketing, and analytics to turn those insights into experiments and product changes.
 
-I used those capabilities to understand where customers came from, how they behaved, where they encountered friction, and what changes could improve the journey.
+I also built Galvanize's first data warehouse and helped establish its ETL, self-service BI, web analytics, SEO, and experimentation capabilities.
+
+That work eventually grew into an analytics function.
+
+I was doing this while Galvanize was evolving from a relatively young startup into a nationally distributed education business.
 
 The work taught me to operate in the space between:
 
@@ -264,7 +362,7 @@ That became a throughline in the product work I later did at Prime Video and Nik
 
 ## What I Learned
 
-Galvanize changed how I think about funnels.
+Galvanize changed how I think about both funnels and growth.
 
 A funnel diagram makes a customer journey look orderly.
 
@@ -272,17 +370,30 @@ Real customers aren't.
 
 They explore, hesitate, compare, return, change their minds, and need different information at different moments.
 
+And as a company grows, understanding those customers can't depend on a handful of people manually assembling answers from disconnected systems.
+
+You need infrastructure that turns customer behavior into something the organization can consistently understand and act on.
+
 The product opportunity is not to force people through a predefined sequence.
 
 It's to understand:
 
 > **What decision is this person trying to make right now, and what do they need from us to make it confidently?**
 
-That lesson has stayed with me across consumer products, internal tools, growth systems, and operational products.
+And the organizational opportunity is to build systems that make that question answerable at scale.
 
-The interface changes.
+Those two ideas — **customer-centered decision journeys and data as a reusable product capability** — have followed me through every major role since.
 
-The fundamental product question doesn't.
+---
+
+## Sources & Context
+
+Public company-scale and outcome figures in this case are included to establish the environment in which the work occurred. They should not be interpreted as results caused solely by my work.
+
+- Galvanize announced a **$45M Series B in August 2016** to expand its technical training programs. Contemporary reporting described nine campuses and more than 1,000 students served.
+- Contemporary reporting cited Galvanize's company-reported **90%+ six-month job-placement rate** and **$30,000+ average salary increase** for immersive-program graduates.
+- Galvanize's Q1 2017 impact reporting described **8 campuses across 7 markets, 753 companies, and 2,279 members**.
+- California Bureau for Private Postsecondary Education reporting for Galvanize's 2017 Data Science Immersive documented an **85.5% completion rate**, **86.3% placement rate among employment-eligible graduates**, and 37 employed graduates earning more than $100,000.
 
 ---
 
@@ -290,4 +401,4 @@ The fundamental product question doesn't.
 
 This case study describes my work and product approach at a high level.
 
-Internal datasets, proprietary business metrics, customer information, system architecture, experimentation results, and other confidential implementation details have intentionally been omitted.
+Internal datasets, proprietary business metrics, customer information, system architecture, individual experiment results, and other confidential implementation details have intentionally been omitted.
