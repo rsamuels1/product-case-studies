@@ -2,13 +2,17 @@
 
 I'm a product leader and hands-on builder with 10+ years working across product, analytics, growth, experimentation, and technical systems.
 
-My career has moved across very different industries — ecommerce, education, streaming, sports, and global supply chain — but the problems I gravitate toward are remarkably consistent:
+Most of my work starts with an ambiguous question:
+
+**What is actually happening, what decision needs to be made, and what can we build to make that decision better?**
+
+Across Nike, Prime Video, Galvanize, Redfin, consulting work, and interview cases, I've worked on problems involving forecasting, inventory optimization, internal tools, customer journeys, experimentation, growth, ecommerce, housing data, and operational decision systems.
+
+The domains change.
+
+The pattern usually doesn't:
 
 > **Take an ambiguous problem, find the signal in the data and customer behavior, turn it into a product decision, build something, and measure what happens.**
-
-I've worked everywhere from early-stage companies to Amazon and Nike, building consumer experiences, internal tools, data products, experimentation systems, and automated decision products.
-
-This portfolio shows how I approach that work.
 
 ---
 
@@ -16,265 +20,374 @@ This portfolio shows how I approach that work.
 
 | Case Study | Product Problem | My Role | Scale / Outcome |
 |---|---|---|---|
-| **[Nike — Replenishment Optimization](./nike-replenishment/)** | How should Nike position inventory before consumer demand becomes an order? | Product lead from early hypothesis through automation and global expansion | Expanded across North America and Europe; ~97% of positioned inventory met its target demand window; measurable quarterly EBITDA impact |
-| **[Prime Video — Self-Service Operations](./prime-video-product/)** | How do you turn recurring expert investigations into products operators can use themselves? | Senior BI Engineer → Analytics Manager; product leadership across data, engineering, science, PM and operations | Built self-service capabilities supporting Prime Video's digital supply chain and expansion into live sports |
-| **[Galvanize — Growth & Customer Journey](./galvanize-growth/)** | How do you understand and improve a complex, high-consideration customer journey while the company is rapidly scaling? | Growth product, analytics, experimentation and data infrastructure | Built the initial data warehouse and analytics/experimentation foundation during national expansion and a $45M Series B growth period |
-| **[TomboyX — Ecommerce Conversion](./tomboyx-conversions/)** | Where is customer decision-making breaking down across an ecommerce funnel? | Growth & ecommerce consulting + hands-on Shopify implementation | Turned an ecommerce audit into a conversion-focused rebuild |
-| **[Campfire — Ecommerce Growth Case](./campfire-ecommerce-growth/)** | Given limited data and an unfamiliar funnel, where should a company focus its next growth experiments? | Product/growth analysis during interview process | Identified acquisition, PDP and checkout signals; developed prioritized experimentation roadmap; received an offer |
-| **[Seattle Majestics — Women's Sports Growth](./seattle-majestics-growth/)** | How do you turn awareness into a repeatable fan and revenue growth system with limited resources? | Growth & digital strategy | Contributed to the organization's first positive-cash-flow year alongside substantial attendance and season-ticket growth |
+| [👟 Nike — Replenishment Optimization](./nike-replenishment/) | Where should inventory be positioned before customer demand becomes an order? | Product Lead | Expanded across North America and Europe; ~97% of positioned inventory met the target demand window; measurable quarterly EBITDA impact |
+| [📺 Prime Video — Self-Service Operations](./prime-video-product/) | How do you turn fragmented operational data and repeated specialist investigations into products teams can use themselves? | Senior BI Engineer → Analytics Manager | Built self-service operational products while Prime Video expanded globally and into live sports |
+| [🎓 Galvanize — Growth & Customer Journey](./galvanize-growth/) | How do you understand and improve a long, high-consideration customer journey while a company is scaling rapidly? | Growth Product & Analytics | Built early data, BI, experimentation, and growth capabilities during Galvanize's national expansion |
+| [🏙️ WISP — Affordable Housing Decision Model](./wisp-affordable-housing/) | Given a fixed investment budget, which vacant properties should Philadelphia prioritize for affordable-housing redevelopment? | Interview Case | Built a multi-criteria decision and cost model; illustrative scenario prioritized 214 properties and ~2,200 units; interview process resulted in an offer |
+| [🩲 TomboyX — Ecommerce Conversion](./tomboyx-conversions/) | Where is friction preventing an engaged audience from becoming customers? | Growth & Ecommerce Consultant | Audit evolved into hands-on Shopify rebuild |
+| [🛒 Campfire — Ecommerce Growth Case](./campfire-ecommerce-growth/) | Where is an ecommerce funnel breaking, and what should the business test first? | Interview Case | Identified channel and checkout opportunities; interview process resulted in an offer |
+| [🏈 Seattle Majestics — Women's Sports Growth](./seattle-majestics-growth/) | How do you turn limited awareness into a repeatable audience and revenue engine? | Growth & Digital Strategy | Contributed to first positive-cash-flow year alongside increased attendance and season-ticket ownership |
 
 ---
 
 # Three Flagship Cases
 
-If you're evaluating me for a senior product role, these three represent the clearest picture of how I work.
+If you only have time to read three, start here.
 
-## 👟 [Nike — Building an Automated Inventory Decision Product](./nike-replenishment/)
+## 👟 Nike — Replenishment Optimization
 
-**Complex systems · Machine learning · Decision products · Global scale**
+**Decision Products · Forecasting · Supply Chain · Automation · Global Scale**
 
-Nike had a deceptively simple question:
+Nike needed to decide where inventory should be positioned **before a customer order existed**.
 
-> **Before a consumer places an order, where should inventory already be?**
+I joined when the idea was still an early hypothesis rather than an established product. I worked with planners, data scientists, engineers, supply-chain teams, and operators to turn that hypothesis into a decision product that evolved from a planner-facing dashboard into an increasingly automated global system.
 
-I owned the product from early problem definition and a human-in-the-loop planner experience through automation and global expansion.
+The mature product helped determine:
 
-The product evolved from a dashboard into a decision system combining demand forecasts, inventory availability, geography, and timing to determine **which SKUs to position, how many units to move, where they should come from, and where they should go**.
+**Which SKUs? → How many units? → From which distribution center? → To which regional facility?**
 
-It expanded across North America and Europe, later supported retail replenishment as well as ecommerce, and produced measurable quarterly EBITDA impact through more efficient fulfillment.
+It expanded across North America and Europe, was adapted for additional markets, and eventually extended beyond ecommerce into retail replenishment.
 
-### Why it matters
+Approximately **97% of positioned inventory met the intended demand window**, and the product generated measurable quarterly EBITDA impact through more efficient inventory positioning and fulfillment.
 
-This is the clearest example of how I operate when the problem is ambiguous, technically complex, financially consequential, and larger than any one interface.
+### Why this case matters
 
-**[Read the Nike case →](./nike-replenishment/)**
+It demonstrates how I work when the product is fundamentally a **decision system rather than a screen**.
 
----
-
-## 🎬 [Prime Video — Turning Operational Complexity Into Self-Service Products](./prime-video-product/)
-
-**Internal products · Data products · Operational UX · Technical leadership**
-
-Prime Video operations teams regularly depended on specialists to understand whether content was ready, what had gone wrong, and what needed attention.
-
-The underlying problem wasn't a lack of data.
-
-It was that the information required to make a decision was fragmented across systems and expert workflows.
-
-I helped turn repeated investigations into reusable self-service capabilities:
-
-**Issue → Investigation → Context → Decision → Action**
-
-My role evolved from Senior BI Engineer to Analytics Manager, where I led work across product managers, program managers, data scientists, data engineers, developers, and operational stakeholders.
-
-The team supported Prime Video's digital supply chain and its early expansion into live sports.
-
-### Why it matters
-
-This case shows how I turn specialist knowledge and recurring manual work into scalable products — and how I lead multidisciplinary teams doing it.
-
-**[Read the Prime Video case →](./prime-video-product/)**
+[Read the Nike case study →](./nike-replenishment/)
 
 ---
 
-## 🎓 [Galvanize — Building the Growth System Behind a Scaling Education Business](./galvanize-growth/)
+## 📺 Prime Video — Turning Operational Complexity Into Self-Service Products
 
-**Growth product · Customer research · Analytics · Experimentation · Data infrastructure**
+**Internal Tools · Data Products · Workflow · Operations · Leadership**
 
-Choosing a technical education program is a high-consideration customer decision involving career risk, cost, trust, outcomes, and significant time.
+Prime Video's operational teams had plenty of data.
 
-At the same time, Galvanize was rapidly expanding into new markets and campuses.
+The problem was that answering basic operational questions often required specialists to assemble context from multiple systems.
 
-I worked across customer research, acquisition, lifecycle, experimentation, analytics, and the digital experience to understand how people actually moved from:
+Instead of asking:
+
+> **What dashboard should we build?**
+
+I reframed the problem as:
+
+> **How do we give the people closest to the operational problem enough visibility and context to investigate it themselves?**
+
+That led to self-service products designed around the actual operational decision:
+
+**Find the problem → Understand the status → Determine urgency → Identify the next action**
+
+My role evolved from Senior BI Engineer to Analytics Manager, where I led work across product managers, program managers, data scientists, data engineers, and developers.
+
+This happened while Prime Video was expanding internationally and making its first major moves into live sports.
+
+### Why this case matters
+
+It demonstrates my approach to **internal tools, operational workflows, self-service data products, and building systems that reduce repeated manual work**.
+
+[Read the Prime Video case study →](./prime-video-product/)
+
+---
+
+## 🎓 Galvanize — Building the Growth System Behind a Rapidly Scaling Education Business
+
+**Growth Product · Customer Research · Funnel Analytics · Experimentation · Data Infrastructure**
+
+Choosing a coding or data-science program wasn't a simple ecommerce transaction.
+
+Prospective students were making a high-consideration decision about education, money, time, and a potential career change.
+
+I worked across customer research, acquisition, lifecycle, funnel analytics, experimentation, and Galvanize.com to understand how people moved from:
 
 **Interest → Exploration → Confidence → Commitment**
 
-I also built Galvanize's initial data warehouse and helped establish its ETL, self-service BI, web analytics, and experimentation capabilities — work that eventually grew into a dedicated analytics function.
+I also built Galvanize's initial data warehouse and helped establish the ETL, self-service BI, web analytics, and experimentation capabilities needed to understand that journey.
 
-This happened while Galvanize was expanding nationally and raised a **$45M Series B** to accelerate its education business.
+This work took place during Galvanize's national expansion, a period in which the company raised a $45M Series B to accelerate its education business.
 
-### Why it matters
+### Why this case matters
 
-This is the clearest bridge between my analytics background and consumer product work: understand customer behavior, build the measurement system, identify friction, change the experience, and learn from what happens.
+It shows how I connect **customer behavior, experimentation, growth, and data infrastructure** rather than treating them as separate disciplines.
 
-**[Read the Galvanize case →](./galvanize-growth/)**
+[Read the Galvanize case study →](./galvanize-growth/)
 
 ---
 
 # Additional Case Studies
 
-These projects show different parts of the same product toolkit.
+## 🏙️ WISP — Using Housing Data to Prioritize Affordable-Housing Investment
 
-## 🩲 [TomboyX — Ecommerce Conversion](./tomboyx-conversions/)
+**Decision Modeling · Geospatial Analysis · Public Data · Resource Allocation · Housing**
 
-I analyzed the ecommerce customer journey from discovery through checkout, identified friction across search, product evaluation, navigation, measurement, and conversion, and later helped rebuild the Shopify experience.
+For a time-boxed interview exercise, I was given a broad affordable-housing problem and Philadelphia property data.
 
-**Shows:** hands-on consumer product work, ecommerce, CRO, analytics, implementation.
+I reframed the problem around a concrete decision:
+
+> **Given a fixed investment budget, which vacant properties should be prioritized for redevelopment?**
+
+I explored the residential market, selected decision-relevant property attributes, built a weighted multi-criteria decision model, and layered on a simplified cost model to turn the ranking into a budget-constrained investment scenario.
+
+One particularly important judgment was deliberately treating neighborhood property value as a **non-beneficial attribute**, preventing the model from simply concentrating investment in already-expensive areas.
+
+Under the exercise's simplifying assumptions, the model prioritized **214 candidate properties** within a hypothetical $300M budget and produced an illustrative estimate of roughly **2,200 affordable-housing units**.
+
+The interview process resulted in an **offer**.
+
+### Why this case matters
+
+It shows another side of my data-product work: **objective design, quantitative modeling, geospatial data, constrained optimization, and the judgment required to decide what a model should actually optimize.**
+
+[Read the WISP case study →](./wisp-affordable-housing/)
 
 ---
 
-## 🛒 [Campfire — Ecommerce Growth Case](./campfire-ecommerce-growth/)
+## 🩲 TomboyX — Turning an Ecommerce Audit Into a Conversion-Focused Redesign
 
-Given an unfamiliar ecommerce dataset during an interview process, I identified strong Organic Search and Affiliate performance, Product Detail Page signals, and 90%+ abandonment among Paid Social and Display customers.
+**Ecommerce · Conversion Optimization · Customer Journey · Shopify · Experimentation**
 
-I translated the findings into a prioritized experimentation and research roadmap.
+I started by auditing the ecommerce customer journey to understand where an engaged audience was encountering friction between discovery and purchase.
 
-The interview process resulted in an offer.
+The work moved from diagnosis into implementation, including a hands-on Shopify rebuild.
 
-**Shows:** rapid problem diagnosis, analytical judgment, experimentation, knowing what the data cannot tell you.
+A key principle was separating:
+
+**What do we know? → What do we suspect? → What should we measure? → What should we test? → What should we build?**
+
+### Why this case matters
+
+It demonstrates my ability to move from **analysis and customer-journey diagnosis into hands-on product implementation**.
+
+[Read the TomboyX case study →](./tomboyx-conversions/)
 
 ---
 
-## 🏈 [Seattle Majestics — Women's Sports Growth](./seattle-majestics-growth/)
+## 🛒 Campfire — Diagnosing an Ecommerce Funnel in an Interview Case
 
-For a women's tackle football organization operating with limited resources, I treated discovery, website experience, email, ticketing, community, and sponsorship as one connected fan journey.
+**Growth Product · Funnel Analysis · Conversion · Experimentation · Ecommerce**
+
+Given an unfamiliar ecommerce dataset during an interview process, I analyzed acquisition channels, landing-page behavior, conversion, and checkout abandonment.
+
+The analysis found that Organic Search and Affiliate traffic were the strongest acquisition sources, while Paid Social and Paid Display showed checkout abandonment above 90%.
+
+Rather than stopping at the analysis, I translated the findings into a prioritized experimentation roadmap.
+
+The interview process resulted in an **offer**.
+
+### Why this case matters
+
+It demonstrates how quickly I can enter an unfamiliar business, find useful signals, distinguish what the data can and cannot tell us, and turn analysis into **specific product experiments**.
+
+[Read the Campfire case study →](./campfire-ecommerce-growth/)
+
+---
+
+## 🏈 Seattle Majestics — Building a Growth System for Women's Tackle Football
+
+**Growth Strategy · Audience Development · Digital Product · Lifecycle · Sports**
+
+The Seattle Majestics had a strong on-field product but limited awareness and resources.
+
+I treated the challenge as a connected customer journey:
+
+**Discovery → Website → Relationship → Attendance → Loyalty**
+
+That meant thinking about search, content, website experience, email audience, game attendance, season tickets, sponsorship, merchandise, and player recruitment as parts of the same growth system.
 
 The work contributed to the organization's first positive-cash-flow year alongside substantial increases in attendance and season-ticket ownership.
 
-**Shows:** growth systems, sports, audience development, resourceful execution.
+### Why this case matters
+
+It's an earlier and smaller-scale example of a pattern that appears throughout my later work: **connect fragmented customer interactions into a system that compounds over time.**
+
+It also reflects a domain I care deeply about: helping more people discover and engage with women's sports.
+
+[Read the Seattle Majestics case study →](./seattle-majestics-growth/)
 
 ---
 
 # The Common Thread
 
-On paper, these products look very different.
+These projects span very different industries:
 
-**Nike:** inventory.
+**Sportswear → Streaming → Education → Housing → Ecommerce → Women's Sports**
 
-**Prime Video:** content operations.
+But the underlying product pattern is remarkably consistent.
 
-**Galvanize:** education.
+## 1. Start with the decision
 
-**TomboyX:** ecommerce.
+What is someone actually trying to decide?
 
-**Campfire:** ecommerce growth.
+A planner deciding where inventory should go.
 
-**Seattle Majestics:** sports.
+An operations team deciding which issue needs attention.
 
-But the underlying product work is remarkably similar.
+A prospective student deciding whether to change careers.
 
-### 1. Start with the decision
+A city deciding which properties to prioritize.
 
-What is the customer, operator, or business actually trying to decide?
+A customer deciding whether to buy.
 
-### 2. Find the signal
+A sports organization deciding where to invest limited resources.
 
-Use customer research, behavioral data, operational knowledge, and quantitative analysis to understand what is actually happening.
+---
 
-### 3. Form a hypothesis
+## 2. Find the signal
 
-Move from:
+That might require:
 
-**“Something isn't working.”**
+- behavioral data
+- customer research
+- funnel analysis
+- operational data
+- forecasting
+- geospatial analysis
+- public datasets
+- experimentation
+- cohort analysis
+- segmentation
+- qualitative feedback
+
+The tool changes depending on the question.
+
+---
+
+## 3. Form a hypothesis
+
+Data is useful when it changes what we think we should do.
+
+That means moving from:
+
+> **Here's what happened.**
 
 to:
 
-**“Here's what I think is happening and why.”**
+> **Here's what I think is happening, why it matters, and what we should do next.**
 
-### 4. Build or change something
+---
 
-A product might be a customer experience.
+## 4. Build or change something
 
-It might be an internal workflow.
+Depending on the problem, that might be:
 
-It might be a data capability.
+- a workflow
+- a product
+- an experiment
+- a decision model
+- a ranking system
+- a data pipeline
+- an internal tool
+- an automated service
+- a customer experience
 
-It might be an automated decision.
+The artifact matters less than whether it improves the decision.
 
-The interface is not the product.
+---
 
-### 5. Measure what happens
+## 5. Measure what happens
 
-Did customer behavior change?
+A product hypothesis isn't finished when something ships.
 
-Did the workflow improve?
+The next question is:
 
-Did the business outcome improve?
+> **Did the behavior or business outcome actually change?**
 
-What did we learn?
+---
 
-### 6. Turn repeated work into capability
+## 6. Turn repeated work into capability
 
-When the same question or workflow keeps appearing, I look for the opportunity to turn it into something reusable.
+This is the pattern I've become most interested in.
 
-That progression shows up repeatedly in my career:
+Sometimes the first version of a solution is analysis.
+
+Then it becomes a dashboard.
+
+Then a workflow.
+
+Then a product.
+
+Then an automated system.
 
 **analysis → tool → product → system**
+
+The highest-leverage work often comes from recognizing when a repeated decision deserves to become a reusable capability.
 
 ---
 
 # How I Work
 
-I tend to be most useful in the messy space between:
+### I like ambiguous problems.
 
-> **“We know something isn't working.”**
+The interesting work usually starts before anyone knows exactly what should be built.
 
-and
+### I use data to make decisions, not decorate them.
 
-> **“Here's what we should build next.”**
+Analysis should change what we do.
 
-I like problems where product judgment requires combining several disciplines rather than staying neatly inside one.
+### I care about the objective.
 
-That usually means some combination of:
+A sophisticated model optimizing the wrong thing is still the wrong product.
 
-- customer research
-- analytics
-- experimentation
-- product strategy
-- technical systems
-- data products
-- operational workflows
-- growth
-- AI/ML
-- hands-on prototyping and building
+### I prototype.
 
-I can work with engineers and data scientists on the system underneath a product, with operators and customers on the problem itself, and with leadership on why solving it matters.
+I'd rather make an idea tangible and learn from it than spend weeks debating it abstractly.
+
+### I can go deep technically.
+
+I've worked hands-on with analytics, SQL, data warehouses, experimentation systems, modeling, APIs, and increasingly AI-assisted development.
+
+### I think internal users are customers.
+
+Operational and internal products deserve the same attention to workflow, friction, and usability as consumer products.
+
+### I like building capabilities that compound.
+
+If the same analysis or decision keeps happening manually, I start wondering whether it should become a product.
 
 ---
 
 # What I'm Looking For
 
-I'm particularly interested in senior product roles involving:
+I'm especially interested in senior product roles involving:
 
-**Data and decision products**  
-Products that turn complex information into something people can actually use to make decisions.
+- **Data and decision products**
+- **Internal tools and workflow products**
+- **Consumer products with meaningful behavioral complexity**
+- **AI-enabled products and decision systems**
+- **Experimentation, measurement, and optimization**
+- **Sports and media**
 
-**Internal tools and workflow products**  
-Products that make experts, operators, employees, or other business users dramatically more effective.
+I'm most useful when a problem sits somewhere between:
 
-**Consumer products with meaningful behavioral complexity**  
-Especially where research, analytics, experimentation, personalization, or lifecycle thinking are central to the product.
+**customer behavior + data + technical systems + product judgment**
 
-**AI-enabled products**  
-Particularly where AI improves an existing decision or workflow rather than existing simply because AI can be added.
-
-**Sports and media**  
-Especially women's sports, streaming, audience products, and products that help fans discover and engage with sports.
+and the answer isn't obvious yet.
 
 ---
 
 # About Me
 
-My path into product wasn't linear.
+I've spent my career moving between analytics, growth, technical systems, and product leadership.
 
-I started close to customer behavior and analytics, built growth and experimentation systems, moved into increasingly complex data and operational products, and eventually owned global product strategy and roadmaps.
+That path has included:
 
-That path taught me to move comfortably between:
+- customer and growth analytics at **Redfin**
+- growth product, experimentation, and data infrastructure at **Galvanize**
+- self-service operational products and analytics leadership at **Prime Video**
+- global forecasting and inventory decision products at **Nike**
+- independent product, growth, analytics, and AI-assisted work
 
-**customer → data → system → product → business outcome**
+The titles have changed.
 
-Today, I remain deliberately hands-on.
+The work has increasingly converged on the same question:
 
-I use modern AI tools heavily for research, analysis, prototyping, development, documentation, and workflow automation — not as a replacement for product judgment, but as a way to shorten the distance between an idea and something I can test.
+> **How do we turn complexity into a better decision — and then turn that decision into a product or system that can scale?**
 
 ---
 
-## Let's Talk
+# Let's Talk
 
-I'm currently exploring senior product opportunities where **customer understanding, data, technical systems, and product judgment** intersect.
+📍 **Portland, Oregon**  
+🌎 **Open to remote opportunities and select relocation**
 
-📍 Portland, Oregon  
-💻 Open to remote opportunities and select relocation  
-🔗 [LinkedIn](https://www.linkedin.com/in/ryansamuelson18/)
-
-If you're looking for someone who can enter an ambiguous problem, figure out what matters, and turn that understanding into a product people can actually use, I'd love to talk.
+[LinkedIn](https://www.linkedin.com/in/rsamuels1/) · [GitHub](https://github.com/rsamuels1)
