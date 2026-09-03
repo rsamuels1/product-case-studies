@@ -2,11 +2,11 @@
 
 I'm **Ryan Samuelson**, a product and analytics leader with 13+ years of experience building data products, decision systems, experimentation platforms, operational tools, and customer-facing experiences.
 
-My career has moved across consumer marketplaces, education, streaming media, global supply chain, sports, e-commerce, and independent consulting, but the underlying product problem has remained remarkably consistent:
+My career has spanned consumer marketplaces, education, streaming media, global supply chain, sports, e-commerce, and independent consulting, but the underlying product problem has remained remarkably consistent:
 
 > **How do we turn complex data into better decisions, better workflows, and measurable outcomes?**
 
-This repository documents how I've approached that problem at different stages of my career.
+These case studies show how I've approached that problem at different stages of my career.
 
 ---
 
@@ -16,10 +16,13 @@ This repository documents how I've approached that problem at different stages o
 |---|---|
 | [Nike — Replenishment Optimization](./nike-replenishment/) | Zero-to-one product leadership, ML-enabled decision systems, global supply chain |
 | [Redfin — Referral & Lifecycle Growth](./redfin-referral-lifecycle-growth/) | Experimentation, consumer funnels, growth systems, revenue measurement |
-| [Prime Video — Product & Analytics](./prime-video-product/) | Product thinking inside large-scale streaming and content operations |
+| [Prime Video — Self-Service Products](./prime-video-product/) | Technical product thinking, analytics products, automation, operational scale |
 | [Galvanize — Growth & Analytics](./galvanize-growth/) | 0→1 analytics infrastructure, experimentation, growth, cross-functional leadership |
+| [WISP — Affordable Housing](./wisp-affordable-housing/) | Rapid product analysis, ambiguity, housing data, interview case that resulted in an offer |
 
-These four cases best represent the progression of my work: **understanding behavior → building measurement systems → creating operational products → automating decisions.**
+The first four cases tell the clearest story of my career progression:
+
+**Understand behavior → Build measurement systems → Create operational products → Automate decisions**
 
 ---
 
@@ -49,27 +52,39 @@ The work connected:
 
 **Traffic → Registration → Contact → Referral → Transaction → Revenue**
 
-One referral analysis followed nearly **13,000 first-tour or agent requests** through the customer journey. Referral funnels analyzed through this work connected customer behavior to more than **$200K in downstream revenue**.
+One referral analysis followed nearly **13,000 first-tour or agent requests** through the customer journey. Two analyzed referral funnels connected customer behavior to more than **$200K in downstream revenue**.
 
-Experimentation included treatment and control populations exceeding **180,000 users**, measurable improvements in contact conversion and re-engagement, and acquisition experiments tied through to transactions and revenue.
+Experimentation included treatment and control populations exceeding **180,000 users**. A listing-recommendation experiment increased 21-day contact conversion from **0.79% to 0.93%**, generating approximately **215 incremental customer contacts** in its first three weeks.
 
-The analysis also led directly to product recommendations around customer identity capture, automated referral matching, and persistent referral attribution, including an initial implementation concept scoped with engineering.
+Other work connected acquisition experiments through to actual transactions and economics. One paid listing experiment generated **28,972 visits, 32 contacts, and 5 deals from $5,308 in spend**, representing approximately **$16,657 in projected margin**.
+
+The analysis also led to product recommendations around customer identity capture, automated referral matching, and persistent referral attribution, including an initial implementation concept scoped with engineering.
 
 **Product muscle:** Turning customer behavior, experimentation, and economic measurement into product mechanisms.
 
 ---
 
-## [Prime Video — Product & Analytics](./prime-video-product/)
+## [Prime Video — Turning Operational Complexity Into Self-Service Products](./prime-video-product/)
 
-**Data Products · Streaming · Business Intelligence · Operational Systems**
+**Technical Product · Self-Service · Business Intelligence · Automation · Streaming Operations**
 
-Built data products and decision mechanisms supporting Prime Video's worldwide content operations and digital content supply chain.
+Built analytics and self-service products supporting Prime Video's worldwide content operations and digital content supply chain.
 
-The work sat at the intersection of Product, Engineering, Data Science, Program Management, and Operations and included KPI systems, workflow automation, self-service analytics, operational tooling, and live-sports support.
+The goal wasn't simply to produce more reporting. It was to turn recurring analytical investigations and specialist knowledge into reusable capabilities that allowed operators and partner teams to answer questions and resolve problems themselves.
 
-During this period I progressed from **Senior Business Intelligence Engineer to Analytics Manager**, expanding from hands-on product and analytics work into developing BIE and analytics talent and improving the mechanisms through which teams made decisions.
+The broader body of work included:
 
-**Product muscle:** Building scalable products and decision infrastructure inside complex operational systems.
+- Automating four recurring reporting workflows worth **16+ hours per week**
+- Helping reduce a critical data-pipeline delay from **24 hours to approximately 1 hour**
+- Rebuilding weekly business review mechanisms from nearly **two days of work to hours**
+- Delivering operating data approximately **two days earlier**
+- Building self-service operational tooling that eliminated hours of recurring manual work
+
+My role grew from hands-on **Senior Business Intelligence Engineer to Analytics Manager**, expanding into leadership across analytics while partnering with Product, Engineering, Data Science, Program Management, and Operations.
+
+The organization also supported Prime Video's expansion into live sports and increasingly complex global content operations.
+
+**Product muscle:** Turning specialist knowledge and repeated manual investigations into scalable self-service products.
 
 ---
 
@@ -79,9 +94,13 @@ During this period I progressed from **Senior Business Intelligence Engineer to 
 
 Built Galvanize's first analytics warehouse and data stack, integrating CRM, marketing, website, and operational data into shared infrastructure for analysis and decision-making.
 
-My role expanded from hands-on analytics and optimization into ownership of the analytics function, experimentation infrastructure, shared metrics, and cross-functional product work.
+My role expanded from hands-on analytics and optimization into ownership of the company's analytics function, experimentation infrastructure, shared metrics, and cross-functional product work.
 
-I was promoted to **Director of Analytics**, reporting to the COO, and also led a cross-functional team of seven spanning engineering, marketing, and analytics through major digital-product work, including the redesign and redevelopment of Galvanize.com.
+I also served as Product Manager for a Growth team, leading a cross-functional group of **seven people across engineering, marketing, and analytics** through major digital-product work including the redesign and redevelopment of Galvanize.com.
+
+That work included user testing, A/B experimentation, measurement design, and reporting infrastructure for evaluating the new experience.
+
+I was promoted to **Director of Analytics**, reporting directly to the COO.
 
 **Product muscle:** Building the infrastructure and organizational mechanisms that make data-driven product development possible.
 
@@ -89,17 +108,17 @@ I was promoted to **Director of Analytics**, reporting to the COO, and also led 
 
 # Additional Case Studies
 
-## [Prime Video — Self-Service Analytics](./prime-video-self-service/)
+## [WISP — Affordable Housing Product Analysis](./wisp-affordable-housing/)
 
-**Business Intelligence · Automation · Internal Products · Operational Leverage**
+**Product Analytics · Housing · Market Analysis · Rapid Prototyping**
 
-A deeper look at the self-service and automation side of my Prime Video work.
+Built an affordable-housing analysis as part of an interview process, using Philadelphia housing data to turn an ambiguous product question into a structured analytical recommendation.
 
-The goal was not simply to build dashboards. It was to reduce recurring analytical work, eliminate manual operational processes, and give teams the ability to answer important questions without waiting on an analyst.
+The project demonstrates rapid problem framing, exploratory analysis, translating messy market data into product insights, and communicating a defensible recommendation to stakeholders.
 
-Examples from the broader body of work included reporting automation worth **16+ hours per week**, major reductions in data latency, and operational tools that eliminated hours of recurring manual work.
+The work ultimately **resulted in a job offer**.
 
-**Product muscle:** Treating internal analytics as products with users, workflows, adoption, and measurable returns.
+**Product muscle:** Moving quickly from ambiguity and raw data to a clear, evidence-backed product recommendation.
 
 ---
 
@@ -111,7 +130,16 @@ Applied digital-product, audience, and growth thinking to women's tackle footbal
 
 The work included a website redesign, email program, audience analysis, sponsorship strategy, and digital growth infrastructure.
 
-The team's digital footprint included approximately **2,000 website sessions per month**, **95% organic traffic**, more than **4,200 Facebook followers**, and a sponsor-facing market analysis estimating a precise Seattle-area addressable audience of more than **300,000 people**.
+The team's digital footprint included approximately:
+
+- **2,000 website sessions per month**
+- **95% organic traffic**
+- **4,222 Facebook followers**
+- **1,471 Twitter followers**
+- **383 email subscribers**
+- **115 season ticket holders**
+
+Sponsor-facing market analysis estimated a Seattle-area addressable audience of more than **300,000 people**.
 
 **Product muscle:** Applying audience data and digital-product thinking to an under-resourced sports organization.
 
@@ -124,6 +152,8 @@ The team's digital footprint included approximately **2,000 website sessions per
 Worked on the digital commerce experience for TomboyX, including Shopify redesign and conversion-oriented improvements.
 
 The work combined technical SEO, customer experience, analytics, and digital-product thinking to identify friction in the shopping journey and improve the underlying e-commerce experience.
+
+Analysis included identifying **273 on-page technical SEO issues** and discrepancies in site indexation while organic traffic grew beyond **1,000 monthly visits**.
 
 **Product muscle:** Connecting acquisition, technical performance, and customer experience to commerce outcomes.
 
@@ -211,7 +241,7 @@ Treat measurement as part of the product rather than something added after launc
 
 ---
 
-# What I’m Interested In
+# What I'm Interested In
 
 I'm particularly interested in products where **data is part of the product itself**:
 
@@ -234,7 +264,7 @@ The problems I enjoy most sit somewhere between **product management, analytics,
 
 I've spent my career moving between analytics and product rather than treating them as separate disciplines.
 
-I started by using customer behavior and experimentation to understand growth at Redfin. At Galvanize, I built the infrastructure that made that kind of analysis possible across an organization. At Prime Video, I built analytics and operational products at global scale and moved into people leadership. At Nike, I led data products that increasingly turned predictive signals into operational decisions.
+I started by using customer behavior and experimentation to understand growth at Redfin. At Galvanize, I built the infrastructure that made that kind of analysis possible across an organization. At Prime Video, I turned recurring analytical and operational problems into self-service products at global scale and moved into people leadership. At Nike, I led data products that increasingly turned predictive signals into operational decisions.
 
 More recently, I've continued building hands-on product and analytics systems independently, including AI-assisted workflows and decision tools.
 
@@ -246,7 +276,7 @@ It shows **how I think**:
 
 ---
 
-## About These Case Studies
+# About These Case Studies
 
 These case studies are reconstructed from contemporaneous working materials, historical documentation, and my own project records.
 
@@ -258,7 +288,7 @@ It's to demonstrate the product thinking, analytical reasoning, decisions, trade
 
 ---
 
-## Contact
+# Contact
 
 **Ryan Samuelson**  
 Portland, Oregon
