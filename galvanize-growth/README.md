@@ -2,7 +2,7 @@
 
 **Growth Product · Customer Research · Funnel Analytics · Experimentation · Lifecycle · Data Infrastructure**
 
-> **Building the analytics and experimentation foundation for a rapidly expanding education business — and using it to redesign the customer journey around how people actually choose a new career.**
+> Building the analytics and experimentation foundation for a rapidly expanding education business — and using it to redesign the customer journey around how people actually choose a new career.
 
 ## At a Glance
 
@@ -16,13 +16,13 @@
 
 During this period, Galvanize:
 
-- raised a **$45M Series B** to expand its technical education programs
-- operated **nine campuses** and had served **1,000+ students** by August 2016
-- publicly reported **90%+ job placement within six months** for immersive-program graduates
-- publicly reported **$30,000+ average annual salary increases** for immersive graduates
-- by Q1 2017 reported **8 campuses across 7 markets**, with **753 companies and 2,279 members** in its broader campus ecosystem
+- raised a $45M Series B to expand its technical education programs
+- operated nine campuses and had served 1,000+ students by August 2016
+- publicly reported 90%+ job placement within six months for immersive-program graduates
+- publicly reported $30,000+ average annual salary increases for immersive graduates
+- by Q1 2017 reported 8 campuses across 7 markets, with 753 companies and 2,279 members in its broader campus ecosystem
 
-Independent California regulatory data later reported an **86.3% in-field placement rate** among employment-eligible 2017 Data Science Immersive graduates, with **37 of 88 employed graduates earning more than $100,000**.
+Independent California regulatory data later reported an 86.3% in-field placement rate among employment-eligible 2017 Data Science Immersive graduates, with 37 of 88 employed graduates earning more than $100,000.
 
 These are company-level scale and student-outcome measures, not outcomes attributable solely to my work. They provide context for the environment in which I was building Galvanize's growth and analytics capabilities.
 
@@ -49,11 +49,11 @@ At the same time, Galvanize was expanding rapidly.
 
 New campuses, programs, markets, acquisition channels, and customer touchpoints increased the complexity of understanding how someone went from:
 
-> **“Maybe I want to change careers.”**
+> “Maybe I want to change careers.”
 
 to:
 
-> **“I'm ready to enroll.”**
+> “I'm ready to enroll.”
 
 Like many fast-growing companies, the digital experience reflected some of the organization that had built it: programs, campuses, teams, campaigns, events, and internal priorities.
 
@@ -121,7 +121,7 @@ That changed how I thought about the funnel.
 
 Instead of asking:
 
-> **“How do we get more people to click Apply?”**
+> “How do we get more people to click Apply?”
 
 the more useful question became:
 
@@ -157,11 +157,11 @@ Instead of organizing primarily around what Galvanize wanted to say, we could or
 
 Conceptually:
 
-**Interest → Exploration → Confidence → Commitment**
+### Interest → Exploration → Confidence → Commitment
 
 The website wasn't just a collection of pages.
 
-It was part of a decision-making product.
+**It was part of a decision-making product.**
 
 ---
 
@@ -173,7 +173,7 @@ I looked across acquisition sources, landing-page behavior, navigation patterns,
 
 That allowed us to form specific hypotheses rather than relying on general ideas like:
 
-> **“We should redesign the website.”**
+> “We should redesign the website.”
 
 A useful experiment needed to answer something more concrete:
 
@@ -207,7 +207,7 @@ The question became whether we were helping the right prospective students progr
 
 My role sat across a boundary that companies often separate:
 
-**marketing acquisition** and **product experience**.
+**marketing acquisition and product experience.**
 
 But customers don't experience that boundary.
 
@@ -247,21 +247,17 @@ Reusable data infrastructure, consistent measurement, experimentation, and self-
 
 The same pattern would later become central to my work at Prime Video and Nike.
 
-A useful analysis solves today's question.
-
-A useful product capability changes how the organization answers that class of questions going forward.
+> **A useful analysis solves today's question. A useful product capability changes how the organization answers that class of questions going forward.**
 
 ---
 
 ## The Environment We Were Scaling Into
 
-This work happened during an unusually fast period of company growth.
+**This work took place during Galvanize's national expansion, a period in which the company raised a $45M Series B to accelerate its education business.**
 
-Galvanize had raised an $18M Series A in 2014. In August 2016, it raised another **$45M Series B** specifically to expand its technical training programs.
+Galvanize had previously raised an $18M Series A in 2014. By August 2016, contemporary reporting described the company as operating nine campuses, having served more than 1,000 students, and supporting more than 700 companies in its broader membership ecosystem.
 
-At that point, contemporary reporting described Galvanize as operating **nine campuses**, having served **more than 1,000 students**, and supporting more than **700 companies** in its broader membership ecosystem.
-
-By Q1 2017, Galvanize reported **eight campuses across seven markets**, with New York and Phoenix opening during that quarter alone. Those campuses contained **753 companies and 2,279 members**.
+By Q1 2017, Galvanize reported eight campuses across seven markets, with New York and Phoenix opening during that quarter alone. Those campuses contained 753 companies and 2,279 members.
 
 The growth product and analytics systems we were building therefore weren't supporting a static website.
 
@@ -390,10 +386,10 @@ Those two ideas — **customer-centered decision journeys and data as a reusable
 
 Public company-scale and outcome figures in this case are included to establish the environment in which the work occurred. They should not be interpreted as results caused solely by my work.
 
-- Galvanize announced a **$45M Series B in August 2016** to expand its technical training programs. Contemporary reporting described nine campuses and more than 1,000 students served.
-- Contemporary reporting cited Galvanize's company-reported **90%+ six-month job-placement rate** and **$30,000+ average salary increase** for immersive-program graduates.
-- Galvanize's Q1 2017 impact reporting described **8 campuses across 7 markets, 753 companies, and 2,279 members**.
-- California Bureau for Private Postsecondary Education reporting for Galvanize's 2017 Data Science Immersive documented an **85.5% completion rate**, **86.3% placement rate among employment-eligible graduates**, and 37 employed graduates earning more than $100,000.
+- Galvanize announced a $45M Series B in August 2016 to expand its technical training programs. Contemporary reporting described nine campuses and more than 1,000 students served.
+- Contemporary reporting cited Galvanize's company-reported 90%+ six-month job-placement rate and $30,000+ average salary increase for immersive-program graduates.
+- Galvanize's Q1 2017 impact reporting described 8 campuses across 7 markets, 753 companies, and 2,279 members.
+- California Bureau for Private Postsecondary Education reporting for Galvanize's 2017 Data Science Immersive documented an 85.5% completion rate, 86.3% placement rate among employment-eligible graduates, and 37 employed graduates earning more than $100,000.
 
 ---
 
